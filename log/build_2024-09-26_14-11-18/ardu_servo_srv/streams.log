@@ -1,0 +1,34 @@
+[8.237s] Invoking command in '/home/kmw/ros2_ws/src/ardu_servo_srv': CONDA_PROMPT_MODIFIER=(ros2_py310) PYTHONPATH=/home/kmw/ros2_ws/src/build/ardu_servo_srv/prefix_override:/home/kmw/miniconda3/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/ros2_ws/src/install/ardu_servo_srv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/ardu_servo_srv build --build-base /home/kmw/ros2_ws/src/build/ardu_servo_srv/build install --record /home/kmw/ros2_ws/src/build/ardu_servo_srv/install.log --single-version-externally-managed install_data
+[9.651s] running egg_info
+[9.652s] creating ../build/ardu_servo_srv/ardu_servo_srv.egg-info
+[9.735s] writing ../build/ardu_servo_srv/ardu_servo_srv.egg-info/PKG-INFO
+[9.738s] writing dependency_links to ../build/ardu_servo_srv/ardu_servo_srv.egg-info/dependency_links.txt
+[9.738s] writing requirements to ../build/ardu_servo_srv/ardu_servo_srv.egg-info/requires.txt
+[9.739s] writing top-level names to ../build/ardu_servo_srv/ardu_servo_srv.egg-info/top_level.txt
+[9.739s] writing manifest file '../build/ardu_servo_srv/ardu_servo_srv.egg-info/SOURCES.txt'
+[9.916s] reading manifest file '../build/ardu_servo_srv/ardu_servo_srv.egg-info/SOURCES.txt'
+[9.924s] writing manifest file '../build/ardu_servo_srv/ardu_servo_srv.egg-info/SOURCES.txt'
+[9.924s] running build
+[9.924s] running build_py
+[9.925s] creating /home/kmw/ros2_ws/src/build/ardu_servo_srv/build/lib/ardu_servo_srv
+[9.925s] copying ardu_servo_srv/ardu_ser.py -> /home/kmw/ros2_ws/src/build/ardu_servo_srv/build/lib/ardu_servo_srv
+[9.925s] copying ardu_servo_srv/__init__.py -> /home/kmw/ros2_ws/src/build/ardu_servo_srv/build/lib/ardu_servo_srv
+[9.926s] copying ardu_servo_srv/ardu_cli.py -> /home/kmw/ros2_ws/src/build/ardu_servo_srv/build/lib/ardu_servo_srv
+[9.926s] running install
+[9.944s] running install_lib
+[10.057s] creating /home/kmw/ros2_ws/src/install/ardu_servo_srv/lib/python3.10/site-packages/ardu_servo_srv
+[10.061s] copying /home/kmw/ros2_ws/src/build/ardu_servo_srv/build/lib/ardu_servo_srv/ardu_ser.py -> /home/kmw/ros2_ws/src/install/ardu_servo_srv/lib/python3.10/site-packages/ardu_servo_srv
+[10.061s] copying /home/kmw/ros2_ws/src/build/ardu_servo_srv/build/lib/ardu_servo_srv/__init__.py -> /home/kmw/ros2_ws/src/install/ardu_servo_srv/lib/python3.10/site-packages/ardu_servo_srv
+[10.062s] copying /home/kmw/ros2_ws/src/build/ardu_servo_srv/build/lib/ardu_servo_srv/ardu_cli.py -> /home/kmw/ros2_ws/src/install/ardu_servo_srv/lib/python3.10/site-packages/ardu_servo_srv
+[10.065s] byte-compiling /home/kmw/ros2_ws/src/install/ardu_servo_srv/lib/python3.10/site-packages/ardu_servo_srv/ardu_ser.py to ardu_ser.cpython-310.pyc
+[10.065s] byte-compiling /home/kmw/ros2_ws/src/install/ardu_servo_srv/lib/python3.10/site-packages/ardu_servo_srv/__init__.py to __init__.cpython-310.pyc
+[10.065s] byte-compiling /home/kmw/ros2_ws/src/install/ardu_servo_srv/lib/python3.10/site-packages/ardu_servo_srv/ardu_cli.py to ardu_cli.cpython-310.pyc
+[10.066s] running install_data
+[10.066s] creating /home/kmw/ros2_ws/src/install/ardu_servo_srv/share/ament_index/resource_index/packages
+[10.066s] copying resource/ardu_servo_srv -> /home/kmw/ros2_ws/src/install/ardu_servo_srv/share/ament_index/resource_index/packages
+[10.067s] copying package.xml -> /home/kmw/ros2_ws/src/install/ardu_servo_srv/share/ardu_servo_srv
+[10.067s] running install_egg_info
+[10.163s] Copying ../build/ardu_servo_srv/ardu_servo_srv.egg-info to /home/kmw/ros2_ws/src/install/ardu_servo_srv/lib/python3.10/site-packages/ardu_servo_srv-0.0.0-py3.10.egg-info
+[10.165s] running install_scripts
+[11.211s] writing list of installed files to '/home/kmw/ros2_ws/src/build/ardu_servo_srv/install.log'
+[12.337s] Invoked command in '/home/kmw/ros2_ws/src/ardu_servo_srv' returned '0': CONDA_PROMPT_MODIFIER=(ros2_py310) PYTHONPATH=/home/kmw/ros2_ws/src/build/ardu_servo_srv/prefix_override:/home/kmw/miniconda3/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/ros2_ws/src/install/ardu_servo_srv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/ardu_servo_srv build --build-base /home/kmw/ros2_ws/src/build/ardu_servo_srv/build install --record /home/kmw/ros2_ws/src/build/ardu_servo_srv/install.log --single-version-externally-managed install_data

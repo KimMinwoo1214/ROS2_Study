@@ -1,0 +1,40 @@
+[7.925s] Invoking command in '/home/kmw/ros2_ws/src/ros_ardu': CONDA_PROMPT_MODIFIER=(ros2_py310) PYTHONPATH=/home/kmw/ros2_ws/src/build/ros_ardu/prefix_override:/home/kmw/miniconda3/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/ros2_ws/src/install/ros_ardu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/ros_ardu build --build-base /home/kmw/ros2_ws/src/build/ros_ardu/build install --record /home/kmw/ros2_ws/src/build/ros_ardu/install.log --single-version-externally-managed install_data
+[9.409s] running egg_info
+[9.411s] creating ../build/ros_ardu/ros_ardu.egg-info
+[9.507s] writing ../build/ros_ardu/ros_ardu.egg-info/PKG-INFO
+[9.509s] writing dependency_links to ../build/ros_ardu/ros_ardu.egg-info/dependency_links.txt
+[9.511s] writing entry points to ../build/ros_ardu/ros_ardu.egg-info/entry_points.txt
+[9.512s] writing requirements to ../build/ros_ardu/ros_ardu.egg-info/requires.txt
+[9.512s] writing top-level names to ../build/ros_ardu/ros_ardu.egg-info/top_level.txt
+[9.512s] writing manifest file '../build/ros_ardu/ros_ardu.egg-info/SOURCES.txt'
+[9.688s] reading manifest file '../build/ros_ardu/ros_ardu.egg-info/SOURCES.txt'
+[9.691s] writing manifest file '../build/ros_ardu/ros_ardu.egg-info/SOURCES.txt'
+[9.693s] running build
+[9.693s] running build_py
+[9.701s] creating /home/kmw/ros2_ws/src/build/ros_ardu/build/lib/ros_ardu
+[9.701s] copying ros_ardu/ardu_ser.py -> /home/kmw/ros2_ws/src/build/ros_ardu/build/lib/ros_ardu
+[9.701s] copying ros_ardu/__init__.py -> /home/kmw/ros2_ws/src/build/ros_ardu/build/lib/ros_ardu
+[9.701s] copying ros_ardu/ardu_cli.py -> /home/kmw/ros2_ws/src/build/ros_ardu/build/lib/ros_ardu
+[9.702s] copying ros_ardu/serial_check.py -> /home/kmw/ros2_ws/src/build/ros_ardu/build/lib/ros_ardu
+[9.702s] running install
+[9.725s] running install_lib
+[9.811s] creating /home/kmw/ros2_ws/src/install/ros_ardu/lib/python3.10/site-packages/ros_ardu
+[9.812s] copying /home/kmw/ros2_ws/src/build/ros_ardu/build/lib/ros_ardu/ardu_ser.py -> /home/kmw/ros2_ws/src/install/ros_ardu/lib/python3.10/site-packages/ros_ardu
+[9.817s] copying /home/kmw/ros2_ws/src/build/ros_ardu/build/lib/ros_ardu/__init__.py -> /home/kmw/ros2_ws/src/install/ros_ardu/lib/python3.10/site-packages/ros_ardu
+[9.817s] copying /home/kmw/ros2_ws/src/build/ros_ardu/build/lib/ros_ardu/ardu_cli.py -> /home/kmw/ros2_ws/src/install/ros_ardu/lib/python3.10/site-packages/ros_ardu
+[9.817s] copying /home/kmw/ros2_ws/src/build/ros_ardu/build/lib/ros_ardu/serial_check.py -> /home/kmw/ros2_ws/src/install/ros_ardu/lib/python3.10/site-packages/ros_ardu
+[9.818s] byte-compiling /home/kmw/ros2_ws/src/install/ros_ardu/lib/python3.10/site-packages/ros_ardu/ardu_ser.py to ardu_ser.cpython-310.pyc
+[9.818s] byte-compiling /home/kmw/ros2_ws/src/install/ros_ardu/lib/python3.10/site-packages/ros_ardu/__init__.py to __init__.cpython-310.pyc
+[9.818s] byte-compiling /home/kmw/ros2_ws/src/install/ros_ardu/lib/python3.10/site-packages/ros_ardu/ardu_cli.py to ardu_cli.cpython-310.pyc
+[9.820s] byte-compiling /home/kmw/ros2_ws/src/install/ros_ardu/lib/python3.10/site-packages/ros_ardu/serial_check.py to serial_check.cpython-310.pyc
+[9.821s] running install_data
+[9.822s] creating /home/kmw/ros2_ws/src/install/ros_ardu/share/ament_index/resource_index/packages
+[9.822s] copying resource/ros_ardu -> /home/kmw/ros2_ws/src/install/ros_ardu/share/ament_index/resource_index/packages
+[9.823s] copying package.xml -> /home/kmw/ros2_ws/src/install/ros_ardu/share/ros_ardu
+[9.824s] running install_egg_info
+[9.915s] Copying ../build/ros_ardu/ros_ardu.egg-info to /home/kmw/ros2_ws/src/install/ros_ardu/lib/python3.10/site-packages/ros_ardu-0.0.0-py3.10.egg-info
+[9.918s] running install_scripts
+[10.743s] Installing ardu_cli script to /home/kmw/ros2_ws/src/install/ros_ardu/lib/ros_ardu
+[10.743s] Installing ardu_ser script to /home/kmw/ros2_ws/src/install/ros_ardu/lib/ros_ardu
+[10.743s] writing list of installed files to '/home/kmw/ros2_ws/src/build/ros_ardu/install.log'
+[12.398s] Invoked command in '/home/kmw/ros2_ws/src/ros_ardu' returned '0': CONDA_PROMPT_MODIFIER=(ros2_py310) PYTHONPATH=/home/kmw/ros2_ws/src/build/ros_ardu/prefix_override:/home/kmw/miniconda3/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/ros2_ws/src/install/ros_ardu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/ros_ardu build --build-base /home/kmw/ros2_ws/src/build/ros_ardu/build install --record /home/kmw/ros2_ws/src/build/ros_ardu/install.log --single-version-externally-managed install_data

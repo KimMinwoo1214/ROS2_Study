@@ -1,0 +1,37 @@
+[4.142s] Invoking command in '/home/kmw/ros2_ws/src/ros_msg': CONDA_PROMPT_MODIFIER=(ros2_py310) PYTHONPATH=/home/kmw/ros2_ws/src/build/ros_msg/prefix_override:/home/kmw/miniconda3/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/ros2_ws/src/install/ros_msg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/ros_msg build --build-base /home/kmw/ros2_ws/src/build/ros_msg/build install --record /home/kmw/ros2_ws/src/build/ros_msg/install.log --single-version-externally-managed install_data
+[5.280s] running egg_info
+[5.282s] creating ../build/ros_msg/ros_msg.egg-info
+[5.363s] writing ../build/ros_msg/ros_msg.egg-info/PKG-INFO
+[5.365s] writing dependency_links to ../build/ros_msg/ros_msg.egg-info/dependency_links.txt
+[5.366s] writing entry points to ../build/ros_msg/ros_msg.egg-info/entry_points.txt
+[5.368s] writing requirements to ../build/ros_msg/ros_msg.egg-info/requires.txt
+[5.368s] writing top-level names to ../build/ros_msg/ros_msg.egg-info/top_level.txt
+[5.370s] writing manifest file '../build/ros_msg/ros_msg.egg-info/SOURCES.txt'
+[5.548s] reading manifest file '../build/ros_msg/ros_msg.egg-info/SOURCES.txt'
+[5.553s] writing manifest file '../build/ros_msg/ros_msg.egg-info/SOURCES.txt'
+[5.553s] running build
+[5.553s] running build_py
+[5.554s] creating /home/kmw/ros2_ws/src/build/ros_msg/build/lib/ros_msg
+[5.555s] copying ros_msg/pub.py -> /home/kmw/ros2_ws/src/build/ros_msg/build/lib/ros_msg
+[5.555s] copying ros_msg/sub.py -> /home/kmw/ros2_ws/src/build/ros_msg/build/lib/ros_msg
+[5.556s] copying ros_msg/__init__.py -> /home/kmw/ros2_ws/src/build/ros_msg/build/lib/ros_msg
+[5.558s] running install
+[5.577s] running install_lib
+[5.662s] creating /home/kmw/ros2_ws/src/install/ros_msg/lib/python3.10/site-packages/ros_msg
+[5.663s] copying /home/kmw/ros2_ws/src/build/ros_msg/build/lib/ros_msg/pub.py -> /home/kmw/ros2_ws/src/install/ros_msg/lib/python3.10/site-packages/ros_msg
+[5.663s] copying /home/kmw/ros2_ws/src/build/ros_msg/build/lib/ros_msg/sub.py -> /home/kmw/ros2_ws/src/install/ros_msg/lib/python3.10/site-packages/ros_msg
+[5.665s] copying /home/kmw/ros2_ws/src/build/ros_msg/build/lib/ros_msg/__init__.py -> /home/kmw/ros2_ws/src/install/ros_msg/lib/python3.10/site-packages/ros_msg
+[5.669s] byte-compiling /home/kmw/ros2_ws/src/install/ros_msg/lib/python3.10/site-packages/ros_msg/pub.py to pub.cpython-310.pyc
+[5.669s] byte-compiling /home/kmw/ros2_ws/src/install/ros_msg/lib/python3.10/site-packages/ros_msg/sub.py to sub.cpython-310.pyc
+[5.669s] byte-compiling /home/kmw/ros2_ws/src/install/ros_msg/lib/python3.10/site-packages/ros_msg/__init__.py to __init__.cpython-310.pyc
+[5.671s] running install_data
+[5.671s] creating /home/kmw/ros2_ws/src/install/ros_msg/share/ament_index/resource_index/packages
+[5.675s] copying resource/ros_msg -> /home/kmw/ros2_ws/src/install/ros_msg/share/ament_index/resource_index/packages
+[5.675s] copying package.xml -> /home/kmw/ros2_ws/src/install/ros_msg/share/ros_msg
+[5.679s] running install_egg_info
+[5.763s] Copying ../build/ros_msg/ros_msg.egg-info to /home/kmw/ros2_ws/src/install/ros_msg/lib/python3.10/site-packages/ros_msg-0.0.0-py3.10.egg-info
+[5.766s] running install_scripts
+[6.816s] Installing listener script to /home/kmw/ros2_ws/src/install/ros_msg/lib/ros_msg
+[6.817s] Installing talker script to /home/kmw/ros2_ws/src/install/ros_msg/lib/ros_msg
+[6.819s] writing list of installed files to '/home/kmw/ros2_ws/src/build/ros_msg/install.log'
+[6.992s] Invoked command in '/home/kmw/ros2_ws/src/ros_msg' returned '0': CONDA_PROMPT_MODIFIER=(ros2_py310) PYTHONPATH=/home/kmw/ros2_ws/src/build/ros_msg/prefix_override:/home/kmw/miniconda3/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/ros2_ws/src/install/ros_msg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/ros_msg build --build-base /home/kmw/ros2_ws/src/build/ros_msg/build install --record /home/kmw/ros2_ws/src/build/ros_msg/install.log --single-version-externally-managed install_data

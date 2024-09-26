@@ -1,0 +1,32 @@
+running egg_info
+creating ../build/ardu_servo_srv/ardu_servo_srv.egg-info
+writing ../build/ardu_servo_srv/ardu_servo_srv.egg-info/PKG-INFO
+writing dependency_links to ../build/ardu_servo_srv/ardu_servo_srv.egg-info/dependency_links.txt
+writing requirements to ../build/ardu_servo_srv/ardu_servo_srv.egg-info/requires.txt
+writing top-level names to ../build/ardu_servo_srv/ardu_servo_srv.egg-info/top_level.txt
+writing manifest file '../build/ardu_servo_srv/ardu_servo_srv.egg-info/SOURCES.txt'
+reading manifest file '../build/ardu_servo_srv/ardu_servo_srv.egg-info/SOURCES.txt'
+writing manifest file '../build/ardu_servo_srv/ardu_servo_srv.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/kmw/ros2_ws/src/build/ardu_servo_srv/build/lib/ardu_servo_srv
+copying ardu_servo_srv/ardu_ser.py -> /home/kmw/ros2_ws/src/build/ardu_servo_srv/build/lib/ardu_servo_srv
+copying ardu_servo_srv/__init__.py -> /home/kmw/ros2_ws/src/build/ardu_servo_srv/build/lib/ardu_servo_srv
+copying ardu_servo_srv/ardu_cli.py -> /home/kmw/ros2_ws/src/build/ardu_servo_srv/build/lib/ardu_servo_srv
+running install
+running install_lib
+creating /home/kmw/ros2_ws/src/install/ardu_servo_srv/lib/python3.10/site-packages/ardu_servo_srv
+copying /home/kmw/ros2_ws/src/build/ardu_servo_srv/build/lib/ardu_servo_srv/ardu_ser.py -> /home/kmw/ros2_ws/src/install/ardu_servo_srv/lib/python3.10/site-packages/ardu_servo_srv
+copying /home/kmw/ros2_ws/src/build/ardu_servo_srv/build/lib/ardu_servo_srv/__init__.py -> /home/kmw/ros2_ws/src/install/ardu_servo_srv/lib/python3.10/site-packages/ardu_servo_srv
+copying /home/kmw/ros2_ws/src/build/ardu_servo_srv/build/lib/ardu_servo_srv/ardu_cli.py -> /home/kmw/ros2_ws/src/install/ardu_servo_srv/lib/python3.10/site-packages/ardu_servo_srv
+byte-compiling /home/kmw/ros2_ws/src/install/ardu_servo_srv/lib/python3.10/site-packages/ardu_servo_srv/ardu_ser.py to ardu_ser.cpython-310.pyc
+byte-compiling /home/kmw/ros2_ws/src/install/ardu_servo_srv/lib/python3.10/site-packages/ardu_servo_srv/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/kmw/ros2_ws/src/install/ardu_servo_srv/lib/python3.10/site-packages/ardu_servo_srv/ardu_cli.py to ardu_cli.cpython-310.pyc
+running install_data
+creating /home/kmw/ros2_ws/src/install/ardu_servo_srv/share/ament_index/resource_index/packages
+copying resource/ardu_servo_srv -> /home/kmw/ros2_ws/src/install/ardu_servo_srv/share/ament_index/resource_index/packages
+copying package.xml -> /home/kmw/ros2_ws/src/install/ardu_servo_srv/share/ardu_servo_srv
+running install_egg_info
+Copying ../build/ardu_servo_srv/ardu_servo_srv.egg-info to /home/kmw/ros2_ws/src/install/ardu_servo_srv/lib/python3.10/site-packages/ardu_servo_srv-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/kmw/ros2_ws/src/build/ardu_servo_srv/install.log'

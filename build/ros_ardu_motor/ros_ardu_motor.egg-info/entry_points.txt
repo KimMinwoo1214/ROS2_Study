@@ -1,0 +1,3 @@
+[console_scripts]
+motor_cli = ros_ardu_motor.motor_cli:main
+motor_ser = ros_ardu_motor.motor_ser:main

@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/py_srv/py_srv.egg-info
+writing ../build/py_srv/py_srv.egg-info/PKG-INFO
+writing dependency_links to ../build/py_srv/py_srv.egg-info/dependency_links.txt
+writing entry points to ../build/py_srv/py_srv.egg-info/entry_points.txt
+writing requirements to ../build/py_srv/py_srv.egg-info/requires.txt
+writing top-level names to ../build/py_srv/py_srv.egg-info/top_level.txt
+writing manifest file '../build/py_srv/py_srv.egg-info/SOURCES.txt'
+reading manifest file '../build/py_srv/py_srv.egg-info/SOURCES.txt'
+writing manifest file '../build/py_srv/py_srv.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/kmw/ros2_ws/src/build/py_srv/build/lib/py_srv
+copying py_srv/service.py -> /home/kmw/ros2_ws/src/build/py_srv/build/lib/py_srv
+copying py_srv/client.py -> /home/kmw/ros2_ws/src/build/py_srv/build/lib/py_srv
+copying py_srv/__init__.py -> /home/kmw/ros2_ws/src/build/py_srv/build/lib/py_srv
+running install
+running install_lib
+creating /home/kmw/ros2_ws/src/install/py_srv/lib/python3.10/site-packages/py_srv
+copying /home/kmw/ros2_ws/src/build/py_srv/build/lib/py_srv/service.py -> /home/kmw/ros2_ws/src/install/py_srv/lib/python3.10/site-packages/py_srv
+copying /home/kmw/ros2_ws/src/build/py_srv/build/lib/py_srv/client.py -> /home/kmw/ros2_ws/src/install/py_srv/lib/python3.10/site-packages/py_srv
+copying /home/kmw/ros2_ws/src/build/py_srv/build/lib/py_srv/__init__.py -> /home/kmw/ros2_ws/src/install/py_srv/lib/python3.10/site-packages/py_srv
+byte-compiling /home/kmw/ros2_ws/src/install/py_srv/lib/python3.10/site-packages/py_srv/service.py to service.cpython-310.pyc
+byte-compiling /home/kmw/ros2_ws/src/install/py_srv/lib/python3.10/site-packages/py_srv/client.py to client.cpython-310.pyc
+byte-compiling /home/kmw/ros2_ws/src/install/py_srv/lib/python3.10/site-packages/py_srv/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/kmw/ros2_ws/src/install/py_srv/share/ament_index/resource_index/packages
+copying resource/py_srv -> /home/kmw/ros2_ws/src/install/py_srv/share/ament_index/resource_index/packages
+copying package.xml -> /home/kmw/ros2_ws/src/install/py_srv/share/py_srv
+running install_egg_info
+Copying ../build/py_srv/py_srv.egg-info to /home/kmw/ros2_ws/src/install/py_srv/lib/python3.10/site-packages/py_srv-0.0.0-py3.10.egg-info
+running install_scripts
+Installing client script to /home/kmw/ros2_ws/src/install/py_srv/lib/py_srv
+Installing service script to /home/kmw/ros2_ws/src/install/py_srv/lib/py_srv
+writing list of installed files to '/home/kmw/ros2_ws/src/build/py_srv/install.log'

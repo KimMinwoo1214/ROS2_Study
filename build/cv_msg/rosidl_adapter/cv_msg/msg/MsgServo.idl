@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from cv_msg/msg/MsgServo.msg
+// generated code does not contain a copyright notice
+
+
+module cv_msg {
+  module msg {
+    struct MsgServo {
+      int64 degree;
+    };
+  };
+};

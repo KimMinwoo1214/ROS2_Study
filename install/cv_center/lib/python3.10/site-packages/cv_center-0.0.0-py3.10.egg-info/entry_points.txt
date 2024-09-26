@@ -1,0 +1,3 @@
+[console_scripts]
+center_pub = cv_center.center_pub:main
+center_sub = cv_center.center_sub:main

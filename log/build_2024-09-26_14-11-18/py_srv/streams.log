@@ -1,0 +1,37 @@
+[8.348s] Invoking command in '/home/kmw/ros2_ws/src/py_srv': CONDA_PROMPT_MODIFIER=(ros2_py310) PYTHONPATH=/home/kmw/ros2_ws/src/build/py_srv/prefix_override:/home/kmw/miniconda3/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/ros2_ws/src/install/py_srv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/py_srv build --build-base /home/kmw/ros2_ws/src/build/py_srv/build install --record /home/kmw/ros2_ws/src/build/py_srv/install.log --single-version-externally-managed install_data
+[9.724s] running egg_info
+[9.724s] creating ../build/py_srv/py_srv.egg-info
+[9.814s] writing ../build/py_srv/py_srv.egg-info/PKG-INFO
+[9.816s] writing dependency_links to ../build/py_srv/py_srv.egg-info/dependency_links.txt
+[9.818s] writing entry points to ../build/py_srv/py_srv.egg-info/entry_points.txt
+[9.818s] writing requirements to ../build/py_srv/py_srv.egg-info/requires.txt
+[9.818s] writing top-level names to ../build/py_srv/py_srv.egg-info/top_level.txt
+[9.820s] writing manifest file '../build/py_srv/py_srv.egg-info/SOURCES.txt'
+[10.015s] reading manifest file '../build/py_srv/py_srv.egg-info/SOURCES.txt'
+[10.016s] writing manifest file '../build/py_srv/py_srv.egg-info/SOURCES.txt'
+[10.017s] running build
+[10.017s] running build_py
+[10.020s] creating /home/kmw/ros2_ws/src/build/py_srv/build/lib/py_srv
+[10.020s] copying py_srv/service.py -> /home/kmw/ros2_ws/src/build/py_srv/build/lib/py_srv
+[10.020s] copying py_srv/client.py -> /home/kmw/ros2_ws/src/build/py_srv/build/lib/py_srv
+[10.021s] copying py_srv/__init__.py -> /home/kmw/ros2_ws/src/build/py_srv/build/lib/py_srv
+[10.021s] running install
+[10.041s] running install_lib
+[10.140s] creating /home/kmw/ros2_ws/src/install/py_srv/lib/python3.10/site-packages/py_srv
+[10.141s] copying /home/kmw/ros2_ws/src/build/py_srv/build/lib/py_srv/service.py -> /home/kmw/ros2_ws/src/install/py_srv/lib/python3.10/site-packages/py_srv
+[10.141s] copying /home/kmw/ros2_ws/src/build/py_srv/build/lib/py_srv/client.py -> /home/kmw/ros2_ws/src/install/py_srv/lib/python3.10/site-packages/py_srv
+[10.142s] copying /home/kmw/ros2_ws/src/build/py_srv/build/lib/py_srv/__init__.py -> /home/kmw/ros2_ws/src/install/py_srv/lib/python3.10/site-packages/py_srv
+[10.150s] byte-compiling /home/kmw/ros2_ws/src/install/py_srv/lib/python3.10/site-packages/py_srv/service.py to service.cpython-310.pyc
+[10.151s] byte-compiling /home/kmw/ros2_ws/src/install/py_srv/lib/python3.10/site-packages/py_srv/client.py to client.cpython-310.pyc
+[10.153s] byte-compiling /home/kmw/ros2_ws/src/install/py_srv/lib/python3.10/site-packages/py_srv/__init__.py to __init__.cpython-310.pyc
+[10.155s] running install_data
+[10.155s] creating /home/kmw/ros2_ws/src/install/py_srv/share/ament_index/resource_index/packages
+[10.156s] copying resource/py_srv -> /home/kmw/ros2_ws/src/install/py_srv/share/ament_index/resource_index/packages
+[10.159s] copying package.xml -> /home/kmw/ros2_ws/src/install/py_srv/share/py_srv
+[10.159s] running install_egg_info
+[10.259s] Copying ../build/py_srv/py_srv.egg-info to /home/kmw/ros2_ws/src/install/py_srv/lib/python3.10/site-packages/py_srv-0.0.0-py3.10.egg-info
+[10.263s] running install_scripts
+[11.490s] Installing client script to /home/kmw/ros2_ws/src/install/py_srv/lib/py_srv
+[11.491s] Installing service script to /home/kmw/ros2_ws/src/install/py_srv/lib/py_srv
+[11.494s] writing list of installed files to '/home/kmw/ros2_ws/src/build/py_srv/install.log'
+[12.479s] Invoked command in '/home/kmw/ros2_ws/src/py_srv' returned '0': CONDA_PROMPT_MODIFIER=(ros2_py310) PYTHONPATH=/home/kmw/ros2_ws/src/build/py_srv/prefix_override:/home/kmw/miniconda3/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/ros2_ws/src/install/py_srv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/py_srv build --build-base /home/kmw/ros2_ws/src/build/py_srv/build install --record /home/kmw/ros2_ws/src/build/py_srv/install.log --single-version-externally-managed install_data

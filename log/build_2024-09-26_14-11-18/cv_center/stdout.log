@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/cv_center/cv_center.egg-info
+writing ../build/cv_center/cv_center.egg-info/PKG-INFO
+writing dependency_links to ../build/cv_center/cv_center.egg-info/dependency_links.txt
+writing entry points to ../build/cv_center/cv_center.egg-info/entry_points.txt
+writing requirements to ../build/cv_center/cv_center.egg-info/requires.txt
+writing top-level names to ../build/cv_center/cv_center.egg-info/top_level.txt
+writing manifest file '../build/cv_center/cv_center.egg-info/SOURCES.txt'
+reading manifest file '../build/cv_center/cv_center.egg-info/SOURCES.txt'
+writing manifest file '../build/cv_center/cv_center.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/kmw/ros2_ws/src/build/cv_center/build/lib/cv_center
+copying cv_center/center_sub.py -> /home/kmw/ros2_ws/src/build/cv_center/build/lib/cv_center
+copying cv_center/__init__.py -> /home/kmw/ros2_ws/src/build/cv_center/build/lib/cv_center
+copying cv_center/center_pub.py -> /home/kmw/ros2_ws/src/build/cv_center/build/lib/cv_center
+running install
+running install_lib
+creating /home/kmw/ros2_ws/src/install/cv_center/lib/python3.10/site-packages/cv_center
+copying /home/kmw/ros2_ws/src/build/cv_center/build/lib/cv_center/center_sub.py -> /home/kmw/ros2_ws/src/install/cv_center/lib/python3.10/site-packages/cv_center
+copying /home/kmw/ros2_ws/src/build/cv_center/build/lib/cv_center/__init__.py -> /home/kmw/ros2_ws/src/install/cv_center/lib/python3.10/site-packages/cv_center
+copying /home/kmw/ros2_ws/src/build/cv_center/build/lib/cv_center/center_pub.py -> /home/kmw/ros2_ws/src/install/cv_center/lib/python3.10/site-packages/cv_center
+byte-compiling /home/kmw/ros2_ws/src/install/cv_center/lib/python3.10/site-packages/cv_center/center_sub.py to center_sub.cpython-310.pyc
+byte-compiling /home/kmw/ros2_ws/src/install/cv_center/lib/python3.10/site-packages/cv_center/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/kmw/ros2_ws/src/install/cv_center/lib/python3.10/site-packages/cv_center/center_pub.py to center_pub.cpython-310.pyc
+running install_data
+creating /home/kmw/ros2_ws/src/install/cv_center/share/ament_index/resource_index/packages
+copying resource/cv_center -> /home/kmw/ros2_ws/src/install/cv_center/share/ament_index/resource_index/packages
+copying package.xml -> /home/kmw/ros2_ws/src/install/cv_center/share/cv_center
+running install_egg_info
+Copying ../build/cv_center/cv_center.egg-info to /home/kmw/ros2_ws/src/install/cv_center/lib/python3.10/site-packages/cv_center-0.0.0-py3.10.egg-info
+running install_scripts
+Installing center_pub script to /home/kmw/ros2_ws/src/install/cv_center/lib/cv_center
+Installing center_sub script to /home/kmw/ros2_ws/src/install/cv_center/lib/cv_center
+writing list of installed files to '/home/kmw/ros2_ws/src/build/cv_center/install.log'

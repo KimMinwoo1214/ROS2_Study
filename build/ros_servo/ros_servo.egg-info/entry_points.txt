@@ -1,0 +1,3 @@
+[console_scripts]
+servo_pub = ros_servo.servo_pub:main
+servo_sub = ros_servo.servo_sub:main

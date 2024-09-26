@@ -1,0 +1,6 @@
+/home/kmw/ros2_ws/src/build/cv_msg/rosidl_adapter/cv_msg:msg/MsgServo.idl
+/home/kmw/ros2_ws/src/build/cv_msg/rosidl_adapter/cv_msg:msg/MsgCenter.idl
+/home/kmw/ros2_ws/src/build/cv_msg/rosidl_adapter/cv_msg:srv/SrvGood.idl
+/home/kmw/ros2_ws/src/build/cv_msg/rosidl_adapter/cv_msg:srv/SrvArduino.idl
+/home/kmw/ros2_ws/src/build/cv_msg/rosidl_adapter/cv_msg:srv/SrvMotor.idl
+/home/kmw/ros2_ws/src/build/cv_msg/rosidl_adapter/cv_msg:srv/SrvServo.idl

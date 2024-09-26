@@ -1,0 +1,34 @@
+{
+  "package_name": "cv_msg",
+  "output_dir": "/home/kmw/ros2_ws/src/build/cv_msg/rosidl_generator_py/cv_msg",
+  "template_dir": "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource",
+  "idl_tuples": [
+    "/home/kmw/ros2_ws/src/build/cv_msg/rosidl_adapter/cv_msg:msg/MsgServo.idl",
+    "/home/kmw/ros2_ws/src/build/cv_msg/rosidl_adapter/cv_msg:msg/MsgCenter.idl",
+    "/home/kmw/ros2_ws/src/build/cv_msg/rosidl_adapter/cv_msg:srv/SrvGood.idl",
+    "/home/kmw/ros2_ws/src/build/cv_msg/rosidl_adapter/cv_msg:srv/SrvArduino.idl",
+    "/home/kmw/ros2_ws/src/build/cv_msg/rosidl_adapter/cv_msg:srv/SrvMotor.idl",
+    "/home/kmw/ros2_ws/src/build/cv_msg/rosidl_adapter/cv_msg:srv/SrvServo.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/generate_py_impl.py",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_action_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_action.py.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_idl_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_idl_support.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_idl.py.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg_support.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
+    "/home/kmw/ros2_ws/src/build/cv_msg/rosidl_adapter/cv_msg/msg/MsgServo.idl",
+    "/home/kmw/ros2_ws/src/build/cv_msg/rosidl_adapter/cv_msg/msg/MsgCenter.idl",
+    "/home/kmw/ros2_ws/src/build/cv_msg/rosidl_adapter/cv_msg/srv/SrvGood.idl",
+    "/home/kmw/ros2_ws/src/build/cv_msg/rosidl_adapter/cv_msg/srv/SrvArduino.idl",
+    "/home/kmw/ros2_ws/src/build/cv_msg/rosidl_adapter/cv_msg/srv/SrvMotor.idl",
+    "/home/kmw/ros2_ws/src/build/cv_msg/rosidl_adapter/cv_msg/srv/SrvServo.idl"
+  ]
+}

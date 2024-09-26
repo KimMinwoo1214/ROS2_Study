@@ -1,0 +1,1042 @@
+[0.000000] (-) TimerEvent: {}
+[0.000795] (ardu_servo_srv) JobQueued: {'identifier': 'ardu_servo_srv', 'dependencies': OrderedDict()}
+[0.000906] (cv_center) JobQueued: {'identifier': 'cv_center', 'dependencies': OrderedDict()}
+[0.000948] (cv_msg) JobQueued: {'identifier': 'cv_msg', 'dependencies': OrderedDict()}
+[0.000991] (py_srv) JobQueued: {'identifier': 'py_srv', 'dependencies': OrderedDict()}
+[0.001096] (ros_ardu) JobQueued: {'identifier': 'ros_ardu', 'dependencies': OrderedDict()}
+[0.001130] (ros_ardu_motor) JobQueued: {'identifier': 'ros_ardu_motor', 'dependencies': OrderedDict()}
+[0.001162] (ros_cv) JobQueued: {'identifier': 'ros_cv', 'dependencies': OrderedDict()}
+[0.001192] (ros_good) JobQueued: {'identifier': 'ros_good', 'dependencies': OrderedDict()}
+[0.001223] (ros_msg) JobQueued: {'identifier': 'ros_msg', 'dependencies': OrderedDict()}
+[0.001253] (ros_servo) JobQueued: {'identifier': 'ros_servo', 'dependencies': OrderedDict()}
+[0.001283] (ardu_servo_srv) JobStarted: {'identifier': 'ardu_servo_srv'}
+[0.015581] (cv_center) JobStarted: {'identifier': 'cv_center'}
+[0.024739] (cv_msg) JobStarted: {'identifier': 'cv_msg'}
+[0.031422] (py_srv) JobStarted: {'identifier': 'py_srv'}
+[0.043705] (ros_ardu) JobStarted: {'identifier': 'ros_ardu'}
+[0.054483] (ros_ardu_motor) JobStarted: {'identifier': 'ros_ardu_motor'}
+[0.067977] (ros_cv) JobStarted: {'identifier': 'ros_cv'}
+[0.081687] (ros_good) JobStarted: {'identifier': 'ros_good'}
+[0.101177] (-) TimerEvent: {}
+[0.201821] (-) TimerEvent: {}
+[0.302233] (-) TimerEvent: {}
+[0.402773] (-) TimerEvent: {}
+[0.503415] (-) TimerEvent: {}
+[0.603950] (-) TimerEvent: {}
+[0.704468] (-) TimerEvent: {}
+[0.804906] (-) TimerEvent: {}
+[0.905331] (-) TimerEvent: {}
+[1.005743] (-) TimerEvent: {}
+[1.106201] (-) TimerEvent: {}
+[1.206180] (cv_msg) JobProgress: {'identifier': 'cv_msg', 'progress': 'cmake'}
+[1.206309] (-) TimerEvent: {}
+[1.207350] (cv_msg) Command: {'cmd': ['/usr/bin/cmake', '/home/kmw/ros2_ws/src/cv_msg', '-DCMAKE_INSTALL_PREFIX=/home/kmw/ros2_ws/src/install/cv_msg'], 'cwd': '/home/kmw/ros2_ws/src/build/cv_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(ros2_py310)'), ('USER', 'kmw'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kmw/ros2_ws/install/cv_msg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kmw'), ('CONDA_SHLVL', '2'), ('OLDPWD', '/home/kmw/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1478'), ('SYSTEMD_EXEC_PID', '1818'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7292'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kmw/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kmw'), ('JOURNAL_STREAM', '8:13024'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kmw'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/kmw/gems/bin:/home/kmw/gems/bin:/home/kmw/miniconda3/envs/ros2_py310/bin:/home/kmw/miniconda3/condabin:/home/kmw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kmw:@/tmp/.ICE-unix/1623,unix/kmw:/tmp/.ICE-unix/1623'), ('INVOCATION_ID', '06e6c9a8ea1943cca123643d39363342'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('CONDA_PREFIX_1', '/home/kmw/miniconda3'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1JI2U2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kmw/ros2_ws/install/ros_servo:/home/kmw/ros2_ws/install/ros_ardu_motor:/home/kmw/ros2_ws/install/ros_ardu:/home/kmw/ros2_ws/install/ros_good:/home/kmw/ros2_ws/install/cv_center:/home/kmw/ros2_ws/install/ros_cv:/home/kmw/ros2_ws/install/cv_msg:/home/kmw/ros2_ws/install/ros_msg:/home/kmw/ros2_ws/install/py_srv:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/kmw/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:a0e78e1a-eee0-4d31-83f8-072ba7cf2e7c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GEM_HOME', '/home/kmw/gems'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'ros2_py310'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kmw/ros2_ws/src/build/cv_msg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/kmw/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kmw/ros2_ws/install/ros_servo/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_ardu_motor/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_ardu/lib/python3.10/site-packages:/home/kmw/ros2_ws/build/ros_msg:/home/kmw/ros2_ws/build/ros_good:/home/kmw/ros2_ws/build/ros_cv:/home/kmw/ros2_ws/build/py_srv:/home/kmw/ros2_ws/build/cv_center:/home/kmw/ros2_ws/install/ros_good/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/ros_good/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_msg/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/ros_cv/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/cv_center/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/cv_msg/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/cv_center/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_cv/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/cv_msg/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_msg/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/py_srv/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/py_srv/lib/python3.12/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/kmw/miniconda3/lib/python3.12/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('CONDA_PREFIX', '/home/kmw/miniconda3/envs/ros2_py310'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kmw/ros2_ws/install/cv_msg:/home/kmw/ros2_ws/install/ros_servo:/home/kmw/ros2_ws/install/ros_ardu_motor:/home/kmw/ros2_ws/install/ros_ardu:/home/kmw/ros2_ws/install/ros_good:/home/kmw/ros2_ws/install/cv_center:/home/kmw/ros2_ws/install/ros_cv:/home/kmw/ros2_ws/install/ros_msg:/home/kmw/ros2_ws/install/py_srv:/opt/ros/humble')]), 'shell': False}
+[1.306511] (-) TimerEvent: {}
+[1.406978] (-) TimerEvent: {}
+[1.507456] (-) TimerEvent: {}
+[1.607877] (-) TimerEvent: {}
+[1.708347] (-) TimerEvent: {}
+[1.808781] (-) TimerEvent: {}
+[1.909176] (-) TimerEvent: {}
+[2.009575] (-) TimerEvent: {}
+[2.110024] (-) TimerEvent: {}
+[2.210466] (-) TimerEvent: {}
+[2.310881] (-) TimerEvent: {}
+[2.411274] (-) TimerEvent: {}
+[2.511713] (-) TimerEvent: {}
+[2.612096] (-) TimerEvent: {}
+[2.712535] (-) TimerEvent: {}
+[2.812998] (-) TimerEvent: {}
+[2.913477] (-) TimerEvent: {}
+[3.013876] (-) TimerEvent: {}
+[3.114397] (-) TimerEvent: {}
+[3.214917] (-) TimerEvent: {}
+[3.315912] (-) TimerEvent: {}
+[3.417086] (-) TimerEvent: {}
+[3.517492] (-) TimerEvent: {}
+[3.617919] (-) TimerEvent: {}
+[3.718357] (-) TimerEvent: {}
+[3.818782] (-) TimerEvent: {}
+[3.892343] (cv_msg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[3.893522] (cv_msg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[3.894170] (cv_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.894429] (cv_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.894607] (cv_msg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.894776] (cv_msg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.894943] (cv_msg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.896505] (cv_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.896896] (cv_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.899252] (cv_msg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.899430] (cv_msg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.899586] (cv_msg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.899740] (cv_msg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.899892] (cv_msg) StdoutLine: {'line': b'-- Found Python3: /home/kmw/miniconda3/envs/ros2_py310/bin/python3 (found version "3.10.14") found components: Interpreter \n'}
+[3.900090] (cv_msg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[3.900293] (cv_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.900450] (cv_msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.900602] (cv_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.920138] (-) TimerEvent: {}
+[4.021122] (-) TimerEvent: {}
+[4.124196] (-) TimerEvent: {}
+[4.224901] (-) TimerEvent: {}
+[4.325865] (-) TimerEvent: {}
+[4.429242] (-) TimerEvent: {}
+[4.529904] (-) TimerEvent: {}
+[4.651689] (-) TimerEvent: {}
+[4.755079] (-) TimerEvent: {}
+[4.855835] (-) TimerEvent: {}
+[4.958219] (-) TimerEvent: {}
+[5.058880] (-) TimerEvent: {}
+[5.163108] (-) TimerEvent: {}
+[5.263963] (-) TimerEvent: {}
+[5.368098] (-) TimerEvent: {}
+[5.468937] (-) TimerEvent: {}
+[5.570140] (-) TimerEvent: {}
+[5.674390] (-) TimerEvent: {}
+[5.775741] (-) TimerEvent: {}
+[5.877873] (-) TimerEvent: {}
+[5.982471] (-) TimerEvent: {}
+[6.083546] (-) TimerEvent: {}
+[6.186343] (-) TimerEvent: {}
+[6.291113] (cv_msg) StdoutLine: {'line': b'-- Found Python3: /home/kmw/miniconda3/envs/ros2_py310/bin/python3 (found version "3.10.14") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[6.291956] (-) TimerEvent: {}
+[6.392687] (-) TimerEvent: {}
+[6.493479] (-) TimerEvent: {}
+[6.596081] (-) TimerEvent: {}
+[6.695206] (cv_msg) StdoutLine: {'line': b'-- Found Python3: /home/kmw/miniconda3/envs/ros2_py310/bin/python3 (found version "3.10.14") found components: Interpreter \n'}
+[6.696183] (-) TimerEvent: {}
+[6.798404] (-) TimerEvent: {}
+[6.903111] (-) TimerEvent: {}
+[7.004123] (-) TimerEvent: {}
+[7.105654] (-) TimerEvent: {}
+[7.206641] (-) TimerEvent: {}
+[7.309082] (-) TimerEvent: {}
+[7.413354] (-) TimerEvent: {}
+[7.514607] (-) TimerEvent: {}
+[7.589340] (ros_cv) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/ros_cv', 'build', '--build-base', '/home/kmw/ros2_ws/src/build/ros_cv/build', 'install', '--record', '/home/kmw/ros2_ws/src/build/ros_cv/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/kmw/ros2_ws/src/ros_cv', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(ros2_py310)', 'USER': 'kmw', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/kmw/ros2_ws/install/cv_msg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kmw', 'CONDA_SHLVL': '2', 'OLDPWD': '/home/kmw/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '1478', 'SYSTEMD_EXEC_PID': '1818', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '7292', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kmw/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kmw', 'JOURNAL_STREAM': '8:13024', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kmw', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/kmw/gems/bin:/home/kmw/gems/bin:/home/kmw/miniconda3/envs/ros2_py310/bin:/home/kmw/miniconda3/condabin:/home/kmw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kmw:@/tmp/.ICE-unix/1623,unix/kmw:/tmp/.ICE-unix/1623', 'INVOCATION_ID': '06e6c9a8ea1943cca123643d39363342', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'CONDA_PREFIX_1': '/home/kmw/miniconda3', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1JI2U2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kmw/ros2_ws/install/ros_servo:/home/kmw/ros2_ws/install/ros_ardu_motor:/home/kmw/ros2_ws/install/ros_ardu:/home/kmw/ros2_ws/install/ros_good:/home/kmw/ros2_ws/install/cv_center:/home/kmw/ros2_ws/install/ros_cv:/home/kmw/ros2_ws/install/cv_msg:/home/kmw/ros2_ws/install/ros_msg:/home/kmw/ros2_ws/install/py_srv:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/kmw/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:a0e78e1a-eee0-4d31-83f8-072ba7cf2e7c', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GEM_HOME': '/home/kmw/gems', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'ros2_py310', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kmw/ros2_ws/src/build/ros_cv', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/kmw/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kmw/ros2_ws/src/build/ros_cv/prefix_override:/home/kmw/miniconda3/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/ros2_ws/src/install/ros_cv/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_servo/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_ardu_motor/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_ardu/lib/python3.10/site-packages:/home/kmw/ros2_ws/build/ros_msg:/home/kmw/ros2_ws/build/ros_good:/home/kmw/ros2_ws/build/ros_cv:/home/kmw/ros2_ws/build/py_srv:/home/kmw/ros2_ws/build/cv_center:/home/kmw/ros2_ws/install/ros_good/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/ros_good/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_msg/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/ros_cv/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/cv_center/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/cv_msg/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/cv_center/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_cv/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/cv_msg/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_msg/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/py_srv/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/py_srv/lib/python3.12/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/kmw/miniconda3/lib/python3.12/site-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'CONDA_PREFIX': '/home/kmw/miniconda3/envs/ros2_py310', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/kmw/ros2_ws/install/cv_msg'}, 'shell': False}
+[7.614772] (-) TimerEvent: {}
+[7.718355] (-) TimerEvent: {}
+[7.819074] (-) TimerEvent: {}
+[7.919834] (-) TimerEvent: {}
+[7.959562] (ros_ardu) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/ros_ardu', 'build', '--build-base', '/home/kmw/ros2_ws/src/build/ros_ardu/build', 'install', '--record', '/home/kmw/ros2_ws/src/build/ros_ardu/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/kmw/ros2_ws/src/ros_ardu', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(ros2_py310)', 'USER': 'kmw', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/kmw/ros2_ws/install/cv_msg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kmw', 'CONDA_SHLVL': '2', 'OLDPWD': '/home/kmw/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '1478', 'SYSTEMD_EXEC_PID': '1818', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '7292', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kmw/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kmw', 'JOURNAL_STREAM': '8:13024', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kmw', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/kmw/gems/bin:/home/kmw/gems/bin:/home/kmw/miniconda3/envs/ros2_py310/bin:/home/kmw/miniconda3/condabin:/home/kmw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kmw:@/tmp/.ICE-unix/1623,unix/kmw:/tmp/.ICE-unix/1623', 'INVOCATION_ID': '06e6c9a8ea1943cca123643d39363342', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'CONDA_PREFIX_1': '/home/kmw/miniconda3', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1JI2U2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kmw/ros2_ws/install/ros_servo:/home/kmw/ros2_ws/install/ros_ardu_motor:/home/kmw/ros2_ws/install/ros_ardu:/home/kmw/ros2_ws/install/ros_good:/home/kmw/ros2_ws/install/cv_center:/home/kmw/ros2_ws/install/ros_cv:/home/kmw/ros2_ws/install/cv_msg:/home/kmw/ros2_ws/install/ros_msg:/home/kmw/ros2_ws/install/py_srv:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/kmw/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:a0e78e1a-eee0-4d31-83f8-072ba7cf2e7c', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GEM_HOME': '/home/kmw/gems', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'ros2_py310', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kmw/ros2_ws/src/build/ros_ardu', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/kmw/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kmw/ros2_ws/src/build/ros_ardu/prefix_override:/home/kmw/miniconda3/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/ros2_ws/src/install/ros_ardu/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_servo/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_ardu_motor/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_ardu/lib/python3.10/site-packages:/home/kmw/ros2_ws/build/ros_msg:/home/kmw/ros2_ws/build/ros_good:/home/kmw/ros2_ws/build/ros_cv:/home/kmw/ros2_ws/build/py_srv:/home/kmw/ros2_ws/build/cv_center:/home/kmw/ros2_ws/install/ros_good/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/ros_good/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_msg/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/ros_cv/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/cv_center/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/cv_msg/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/cv_center/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_cv/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/cv_msg/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_msg/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/py_srv/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/py_srv/lib/python3.12/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/kmw/miniconda3/lib/python3.12/site-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'CONDA_PREFIX': '/home/kmw/miniconda3/envs/ros2_py310', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/kmw/ros2_ws/install/cv_msg'}, 'shell': False}
+[8.020028] (-) TimerEvent: {}
+[8.093545] (ros_good) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/ros_good', 'build', '--build-base', '/home/kmw/ros2_ws/src/build/ros_good/build', 'install', '--record', '/home/kmw/ros2_ws/src/build/ros_good/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/kmw/ros2_ws/src/ros_good', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(ros2_py310)', 'USER': 'kmw', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/kmw/ros2_ws/install/cv_msg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kmw', 'CONDA_SHLVL': '2', 'OLDPWD': '/home/kmw/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '1478', 'SYSTEMD_EXEC_PID': '1818', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '7292', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kmw/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kmw', 'JOURNAL_STREAM': '8:13024', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kmw', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/kmw/gems/bin:/home/kmw/gems/bin:/home/kmw/miniconda3/envs/ros2_py310/bin:/home/kmw/miniconda3/condabin:/home/kmw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kmw:@/tmp/.ICE-unix/1623,unix/kmw:/tmp/.ICE-unix/1623', 'INVOCATION_ID': '06e6c9a8ea1943cca123643d39363342', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'CONDA_PREFIX_1': '/home/kmw/miniconda3', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1JI2U2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kmw/ros2_ws/install/ros_servo:/home/kmw/ros2_ws/install/ros_ardu_motor:/home/kmw/ros2_ws/install/ros_ardu:/home/kmw/ros2_ws/install/ros_good:/home/kmw/ros2_ws/install/cv_center:/home/kmw/ros2_ws/install/ros_cv:/home/kmw/ros2_ws/install/cv_msg:/home/kmw/ros2_ws/install/ros_msg:/home/kmw/ros2_ws/install/py_srv:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/kmw/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:a0e78e1a-eee0-4d31-83f8-072ba7cf2e7c', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GEM_HOME': '/home/kmw/gems', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'ros2_py310', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kmw/ros2_ws/src/build/ros_good', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/kmw/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kmw/ros2_ws/src/build/ros_good/prefix_override:/home/kmw/miniconda3/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/ros2_ws/src/install/ros_good/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_servo/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_ardu_motor/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_ardu/lib/python3.10/site-packages:/home/kmw/ros2_ws/build/ros_msg:/home/kmw/ros2_ws/build/ros_good:/home/kmw/ros2_ws/build/ros_cv:/home/kmw/ros2_ws/build/py_srv:/home/kmw/ros2_ws/build/cv_center:/home/kmw/ros2_ws/install/ros_good/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/ros_good/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_msg/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/ros_cv/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/cv_center/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/cv_msg/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/cv_center/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_cv/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/cv_msg/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_msg/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/py_srv/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/py_srv/lib/python3.12/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/kmw/miniconda3/lib/python3.12/site-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'CONDA_PREFIX': '/home/kmw/miniconda3/envs/ros2_py310', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/kmw/ros2_ws/install/cv_msg'}, 'shell': False}
+[8.120182] (-) TimerEvent: {}
+[8.223053] (-) TimerEvent: {}
+[8.236319] (ardu_servo_srv) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/ardu_servo_srv', 'build', '--build-base', '/home/kmw/ros2_ws/src/build/ardu_servo_srv/build', 'install', '--record', '/home/kmw/ros2_ws/src/build/ardu_servo_srv/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/kmw/ros2_ws/src/ardu_servo_srv', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(ros2_py310)', 'USER': 'kmw', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/kmw/ros2_ws/install/cv_msg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kmw', 'CONDA_SHLVL': '2', 'OLDPWD': '/home/kmw/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '1478', 'SYSTEMD_EXEC_PID': '1818', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '7292', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kmw/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kmw', 'JOURNAL_STREAM': '8:13024', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kmw', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/kmw/gems/bin:/home/kmw/gems/bin:/home/kmw/miniconda3/envs/ros2_py310/bin:/home/kmw/miniconda3/condabin:/home/kmw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kmw:@/tmp/.ICE-unix/1623,unix/kmw:/tmp/.ICE-unix/1623', 'INVOCATION_ID': '06e6c9a8ea1943cca123643d39363342', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'CONDA_PREFIX_1': '/home/kmw/miniconda3', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1JI2U2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kmw/ros2_ws/install/ros_servo:/home/kmw/ros2_ws/install/ros_ardu_motor:/home/kmw/ros2_ws/install/ros_ardu:/home/kmw/ros2_ws/install/ros_good:/home/kmw/ros2_ws/install/cv_center:/home/kmw/ros2_ws/install/ros_cv:/home/kmw/ros2_ws/install/cv_msg:/home/kmw/ros2_ws/install/ros_msg:/home/kmw/ros2_ws/install/py_srv:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/kmw/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:a0e78e1a-eee0-4d31-83f8-072ba7cf2e7c', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GEM_HOME': '/home/kmw/gems', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'ros2_py310', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kmw/ros2_ws/src/build/ardu_servo_srv', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/kmw/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kmw/ros2_ws/src/build/ardu_servo_srv/prefix_override:/home/kmw/miniconda3/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/ros2_ws/src/install/ardu_servo_srv/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_servo/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_ardu_motor/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_ardu/lib/python3.10/site-packages:/home/kmw/ros2_ws/build/ros_msg:/home/kmw/ros2_ws/build/ros_good:/home/kmw/ros2_ws/build/ros_cv:/home/kmw/ros2_ws/build/py_srv:/home/kmw/ros2_ws/build/cv_center:/home/kmw/ros2_ws/install/ros_good/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/ros_good/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_msg/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/ros_cv/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/cv_center/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/cv_msg/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/cv_center/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_cv/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/cv_msg/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_msg/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/py_srv/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/py_srv/lib/python3.12/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/kmw/miniconda3/lib/python3.12/site-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'CONDA_PREFIX': '/home/kmw/miniconda3/envs/ros2_py310', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/kmw/ros2_ws/install/cv_msg'}, 'shell': False}
+[8.328118] (-) TimerEvent: {}
+[8.369887] (py_srv) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/py_srv', 'build', '--build-base', '/home/kmw/ros2_ws/src/build/py_srv/build', 'install', '--record', '/home/kmw/ros2_ws/src/build/py_srv/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/kmw/ros2_ws/src/py_srv', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(ros2_py310)', 'USER': 'kmw', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/kmw/ros2_ws/install/cv_msg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kmw', 'CONDA_SHLVL': '2', 'OLDPWD': '/home/kmw/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '1478', 'SYSTEMD_EXEC_PID': '1818', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '7292', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kmw/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kmw', 'JOURNAL_STREAM': '8:13024', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kmw', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/kmw/gems/bin:/home/kmw/gems/bin:/home/kmw/miniconda3/envs/ros2_py310/bin:/home/kmw/miniconda3/condabin:/home/kmw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kmw:@/tmp/.ICE-unix/1623,unix/kmw:/tmp/.ICE-unix/1623', 'INVOCATION_ID': '06e6c9a8ea1943cca123643d39363342', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'CONDA_PREFIX_1': '/home/kmw/miniconda3', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1JI2U2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kmw/ros2_ws/install/ros_servo:/home/kmw/ros2_ws/install/ros_ardu_motor:/home/kmw/ros2_ws/install/ros_ardu:/home/kmw/ros2_ws/install/ros_good:/home/kmw/ros2_ws/install/cv_center:/home/kmw/ros2_ws/install/ros_cv:/home/kmw/ros2_ws/install/cv_msg:/home/kmw/ros2_ws/install/ros_msg:/home/kmw/ros2_ws/install/py_srv:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/kmw/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:a0e78e1a-eee0-4d31-83f8-072ba7cf2e7c', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GEM_HOME': '/home/kmw/gems', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'ros2_py310', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kmw/ros2_ws/src/build/py_srv', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/kmw/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kmw/ros2_ws/src/build/py_srv/prefix_override:/home/kmw/miniconda3/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/ros2_ws/src/install/py_srv/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_servo/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_ardu_motor/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_ardu/lib/python3.10/site-packages:/home/kmw/ros2_ws/build/ros_msg:/home/kmw/ros2_ws/build/ros_good:/home/kmw/ros2_ws/build/ros_cv:/home/kmw/ros2_ws/build/py_srv:/home/kmw/ros2_ws/build/cv_center:/home/kmw/ros2_ws/install/ros_good/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/ros_good/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_msg/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/ros_cv/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/cv_center/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/cv_msg/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/cv_center/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_cv/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/cv_msg/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_msg/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/py_srv/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/py_srv/lib/python3.12/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/kmw/miniconda3/lib/python3.12/site-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'CONDA_PREFIX': '/home/kmw/miniconda3/envs/ros2_py310', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/kmw/ros2_ws/install/cv_msg'}, 'shell': False}
+[8.430162] (-) TimerEvent: {}
+[8.505380] (ros_ardu_motor) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/ros_ardu_motor', 'build', '--build-base', '/home/kmw/ros2_ws/src/build/ros_ardu_motor/build', 'install', '--record', '/home/kmw/ros2_ws/src/build/ros_ardu_motor/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/kmw/ros2_ws/src/ros_ardu_motor', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(ros2_py310)', 'USER': 'kmw', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/kmw/ros2_ws/install/cv_msg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kmw', 'CONDA_SHLVL': '2', 'OLDPWD': '/home/kmw/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '1478', 'SYSTEMD_EXEC_PID': '1818', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '7292', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kmw/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kmw', 'JOURNAL_STREAM': '8:13024', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kmw', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/kmw/gems/bin:/home/kmw/gems/bin:/home/kmw/miniconda3/envs/ros2_py310/bin:/home/kmw/miniconda3/condabin:/home/kmw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kmw:@/tmp/.ICE-unix/1623,unix/kmw:/tmp/.ICE-unix/1623', 'INVOCATION_ID': '06e6c9a8ea1943cca123643d39363342', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'CONDA_PREFIX_1': '/home/kmw/miniconda3', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1JI2U2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kmw/ros2_ws/install/ros_servo:/home/kmw/ros2_ws/install/ros_ardu_motor:/home/kmw/ros2_ws/install/ros_ardu:/home/kmw/ros2_ws/install/ros_good:/home/kmw/ros2_ws/install/cv_center:/home/kmw/ros2_ws/install/ros_cv:/home/kmw/ros2_ws/install/cv_msg:/home/kmw/ros2_ws/install/ros_msg:/home/kmw/ros2_ws/install/py_srv:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/kmw/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:a0e78e1a-eee0-4d31-83f8-072ba7cf2e7c', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GEM_HOME': '/home/kmw/gems', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'ros2_py310', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kmw/ros2_ws/src/build/ros_ardu_motor', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/kmw/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kmw/ros2_ws/src/build/ros_ardu_motor/prefix_override:/home/kmw/miniconda3/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/ros2_ws/src/install/ros_ardu_motor/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_servo/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_ardu_motor/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_ardu/lib/python3.10/site-packages:/home/kmw/ros2_ws/build/ros_msg:/home/kmw/ros2_ws/build/ros_good:/home/kmw/ros2_ws/build/ros_cv:/home/kmw/ros2_ws/build/py_srv:/home/kmw/ros2_ws/build/cv_center:/home/kmw/ros2_ws/install/ros_good/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/ros_good/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_msg/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/ros_cv/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/cv_center/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/cv_msg/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/cv_center/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_cv/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/cv_msg/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_msg/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/py_srv/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/py_srv/lib/python3.12/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/kmw/miniconda3/lib/python3.12/site-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'CONDA_PREFIX': '/home/kmw/miniconda3/envs/ros2_py310', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/kmw/ros2_ws/install/cv_msg'}, 'shell': False}
+[8.533285] (-) TimerEvent: {}
+[8.555000] (cv_center) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/cv_center', 'build', '--build-base', '/home/kmw/ros2_ws/src/build/cv_center/build', 'install', '--record', '/home/kmw/ros2_ws/src/build/cv_center/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/kmw/ros2_ws/src/cv_center', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(ros2_py310)', 'USER': 'kmw', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/kmw/ros2_ws/install/cv_msg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kmw', 'CONDA_SHLVL': '2', 'OLDPWD': '/home/kmw/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '1478', 'SYSTEMD_EXEC_PID': '1818', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '7292', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kmw/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kmw', 'JOURNAL_STREAM': '8:13024', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kmw', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/kmw/gems/bin:/home/kmw/gems/bin:/home/kmw/miniconda3/envs/ros2_py310/bin:/home/kmw/miniconda3/condabin:/home/kmw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kmw:@/tmp/.ICE-unix/1623,unix/kmw:/tmp/.ICE-unix/1623', 'INVOCATION_ID': '06e6c9a8ea1943cca123643d39363342', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'CONDA_PREFIX_1': '/home/kmw/miniconda3', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1JI2U2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kmw/ros2_ws/install/ros_servo:/home/kmw/ros2_ws/install/ros_ardu_motor:/home/kmw/ros2_ws/install/ros_ardu:/home/kmw/ros2_ws/install/ros_good:/home/kmw/ros2_ws/install/cv_center:/home/kmw/ros2_ws/install/ros_cv:/home/kmw/ros2_ws/install/cv_msg:/home/kmw/ros2_ws/install/ros_msg:/home/kmw/ros2_ws/install/py_srv:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/kmw/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:a0e78e1a-eee0-4d31-83f8-072ba7cf2e7c', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GEM_HOME': '/home/kmw/gems', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'ros2_py310', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kmw/ros2_ws/src/build/cv_center', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/kmw/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kmw/ros2_ws/src/build/cv_center/prefix_override:/home/kmw/miniconda3/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/ros2_ws/src/install/cv_center/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_servo/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_ardu_motor/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_ardu/lib/python3.10/site-packages:/home/kmw/ros2_ws/build/ros_msg:/home/kmw/ros2_ws/build/ros_good:/home/kmw/ros2_ws/build/ros_cv:/home/kmw/ros2_ws/build/py_srv:/home/kmw/ros2_ws/build/cv_center:/home/kmw/ros2_ws/install/ros_good/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/ros_good/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_msg/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/ros_cv/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/cv_center/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/cv_msg/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/cv_center/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_cv/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/cv_msg/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_msg/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/py_srv/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/py_srv/lib/python3.12/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/kmw/miniconda3/lib/python3.12/site-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'CONDA_PREFIX': '/home/kmw/miniconda3/envs/ros2_py310', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/kmw/ros2_ws/install/cv_msg'}, 'shell': False}
+[8.635060] (cv_msg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[8.635459] (-) TimerEvent: {}
+[8.735996] (-) TimerEvent: {}
+[8.836557] (-) TimerEvent: {}
+[8.937140] (-) TimerEvent: {}
+[9.039239] (-) TimerEvent: {}
+[9.139786] (-) TimerEvent: {}
+[9.240339] (-) TimerEvent: {}
+[9.304053] (ros_cv) StdoutLine: {'line': b'running egg_info\n'}
+[9.304940] (ros_cv) StdoutLine: {'line': b'creating ../build/ros_cv/ros_cv.egg-info\n'}
+[9.324630] (cv_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.341655] (-) TimerEvent: {}
+[9.394219] (ros_cv) StdoutLine: {'line': b'writing ../build/ros_cv/ros_cv.egg-info/PKG-INFO\n'}
+[9.394630] (ros_cv) StdoutLine: {'line': b'writing dependency_links to ../build/ros_cv/ros_cv.egg-info/dependency_links.txt\n'}
+[9.394911] (ros_cv) StdoutLine: {'line': b'writing entry points to ../build/ros_cv/ros_cv.egg-info/entry_points.txt\n'}
+[9.396013] (ros_cv) StdoutLine: {'line': b'writing requirements to ../build/ros_cv/ros_cv.egg-info/requires.txt\n'}
+[9.396287] (ros_cv) StdoutLine: {'line': b'writing top-level names to ../build/ros_cv/ros_cv.egg-info/top_level.txt\n'}
+[9.396520] (ros_cv) StdoutLine: {'line': b"writing manifest file '../build/ros_cv/ros_cv.egg-info/SOURCES.txt'\n"}
+[9.445071] (-) TimerEvent: {}
+[9.452962] (ros_ardu) StdoutLine: {'line': b'running egg_info\n'}
+[9.454417] (ros_ardu) StdoutLine: {'line': b'creating ../build/ros_ardu/ros_ardu.egg-info\n'}
+[9.545199] (-) TimerEvent: {}
+[9.550189] (ros_ardu) StdoutLine: {'line': b'writing ../build/ros_ardu/ros_ardu.egg-info/PKG-INFO\n'}
+[9.552121] (ros_ardu) StdoutLine: {'line': b'writing dependency_links to ../build/ros_ardu/ros_ardu.egg-info/dependency_links.txt\n'}
+[9.554662] (ros_ardu) StdoutLine: {'line': b'writing entry points to ../build/ros_ardu/ros_ardu.egg-info/entry_points.txt\n'}
+[9.555106] (ros_ardu) StdoutLine: {'line': b'writing requirements to ../build/ros_ardu/ros_ardu.egg-info/requires.txt\n'}
+[9.555379] (ros_ardu) StdoutLine: {'line': b'writing top-level names to ../build/ros_ardu/ros_ardu.egg-info/top_level.txt\n'}
+[9.555606] (ros_ardu) StdoutLine: {'line': b"writing manifest file '../build/ros_ardu/ros_ardu.egg-info/SOURCES.txt'\n"}
+[9.560616] (ros_good) StdoutLine: {'line': b'running egg_info\n'}
+[9.564830] (ros_good) StdoutLine: {'line': b'creating ../build/ros_good/ros_good.egg-info\n'}
+[9.588487] (ros_cv) StdoutLine: {'line': b"reading manifest file '../build/ros_cv/ros_cv.egg-info/SOURCES.txt'\n"}
+[9.592633] (ros_cv) StdoutLine: {'line': b"writing manifest file '../build/ros_cv/ros_cv.egg-info/SOURCES.txt'\n"}
+[9.593070] (ros_cv) StdoutLine: {'line': b'running build\n'}
+[9.593424] (ros_cv) StdoutLine: {'line': b'running build_py\n'}
+[9.595376] (ros_cv) StdoutLine: {'line': b'creating /home/kmw/ros2_ws/src/build/ros_cv/build/lib/ros_cv\n'}
+[9.595779] (ros_cv) StdoutLine: {'line': b'copying ros_cv/cam_sub.py -> /home/kmw/ros2_ws/src/build/ros_cv/build/lib/ros_cv\n'}
+[9.596041] (ros_cv) StdoutLine: {'line': b'copying ros_cv/__init__.py -> /home/kmw/ros2_ws/src/build/ros_cv/build/lib/ros_cv\n'}
+[9.596290] (ros_cv) StdoutLine: {'line': b'copying ros_cv/cam_pub.py -> /home/kmw/ros2_ws/src/build/ros_cv/build/lib/ros_cv\n'}
+[9.596666] (ros_cv) StdoutLine: {'line': b'running install\n'}
+[9.620056] (ros_cv) StdoutLine: {'line': b'running install_lib\n'}
+[9.645315] (-) TimerEvent: {}
+[9.651625] (ardu_servo_srv) StdoutLine: {'line': b'running egg_info\n'}
+[9.652247] (ros_good) StdoutLine: {'line': b'writing ../build/ros_good/ros_good.egg-info/PKG-INFO\n'}
+[9.653009] (ardu_servo_srv) StdoutLine: {'line': b'creating ../build/ardu_servo_srv/ardu_servo_srv.egg-info\n'}
+[9.656623] (ros_good) StdoutLine: {'line': b'writing dependency_links to ../build/ros_good/ros_good.egg-info/dependency_links.txt\n'}
+[9.658522] (ros_good) StdoutLine: {'line': b'writing entry points to ../build/ros_good/ros_good.egg-info/entry_points.txt\n'}
+[9.660897] (ros_good) StdoutLine: {'line': b'writing requirements to ../build/ros_good/ros_good.egg-info/requires.txt\n'}
+[9.666593] (ros_good) StdoutLine: {'line': b'writing top-level names to ../build/ros_good/ros_good.egg-info/top_level.txt\n'}
+[9.670049] (ros_good) StdoutLine: {'line': b"writing manifest file '../build/ros_good/ros_good.egg-info/SOURCES.txt'\n"}
+[9.702022] (ros_cv) StdoutLine: {'line': b'creating /home/kmw/ros2_ws/src/install/ros_cv/lib/python3.10/site-packages/ros_cv\n'}
+[9.702672] (ros_cv) StdoutLine: {'line': b'copying /home/kmw/ros2_ws/src/build/ros_cv/build/lib/ros_cv/cam_sub.py -> /home/kmw/ros2_ws/src/install/ros_cv/lib/python3.10/site-packages/ros_cv\n'}
+[9.703161] (ros_cv) StdoutLine: {'line': b'copying /home/kmw/ros2_ws/src/build/ros_cv/build/lib/ros_cv/__init__.py -> /home/kmw/ros2_ws/src/install/ros_cv/lib/python3.10/site-packages/ros_cv\n'}
+[9.703563] (ros_cv) StdoutLine: {'line': b'copying /home/kmw/ros2_ws/src/build/ros_cv/build/lib/ros_cv/cam_pub.py -> /home/kmw/ros2_ws/src/install/ros_cv/lib/python3.10/site-packages/ros_cv\n'}
+[9.706009] (ros_cv) StdoutLine: {'line': b'byte-compiling /home/kmw/ros2_ws/src/install/ros_cv/lib/python3.10/site-packages/ros_cv/cam_sub.py to cam_sub.cpython-310.pyc\n'}
+[9.709049] (ros_cv) StdoutLine: {'line': b'byte-compiling /home/kmw/ros2_ws/src/install/ros_cv/lib/python3.10/site-packages/ros_cv/__init__.py to __init__.cpython-310.pyc\n'}
+[9.709397] (ros_cv) StdoutLine: {'line': b'byte-compiling /home/kmw/ros2_ws/src/install/ros_cv/lib/python3.10/site-packages/ros_cv/cam_pub.py to cam_pub.cpython-310.pyc\n'}
+[9.709788] (ros_cv) StdoutLine: {'line': b'running install_data\n'}
+[9.710359] (ros_cv) StdoutLine: {'line': b'creating /home/kmw/ros2_ws/src/install/ros_cv/share/ament_index/resource_index/packages\n'}
+[9.714045] (ros_cv) StdoutLine: {'line': b'copying resource/ros_cv -> /home/kmw/ros2_ws/src/install/ros_cv/share/ament_index/resource_index/packages\n'}
+[9.714417] (ros_cv) StdoutLine: {'line': b'copying package.xml -> /home/kmw/ros2_ws/src/install/ros_cv/share/ros_cv\n'}
+[9.714661] (ros_cv) StdoutLine: {'line': b'copying launch/cv_launch.py -> /home/kmw/ros2_ws/src/install/ros_cv/share/ros_cv\n'}
+[9.714888] (ros_cv) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.731122] (ros_ardu) StdoutLine: {'line': b"reading manifest file '../build/ros_ardu/ros_ardu.egg-info/SOURCES.txt'\n"}
+[9.734833] (ros_ardu) StdoutLine: {'line': b"writing manifest file '../build/ros_ardu/ros_ardu.egg-info/SOURCES.txt'\n"}
+[9.736008] (ros_ardu) StdoutLine: {'line': b'running build\n'}
+[9.736413] (ardu_servo_srv) StdoutLine: {'line': b'writing ../build/ardu_servo_srv/ardu_servo_srv.egg-info/PKG-INFO\n'}
+[9.736661] (ros_ardu) StdoutLine: {'line': b'running build_py\n'}
+[9.739045] (ardu_servo_srv) StdoutLine: {'line': b'writing dependency_links to ../build/ardu_servo_srv/ardu_servo_srv.egg-info/dependency_links.txt\n'}
+[9.739507] (ardu_servo_srv) StdoutLine: {'line': b'writing requirements to ../build/ardu_servo_srv/ardu_servo_srv.egg-info/requires.txt\n'}
+[9.739844] (ardu_servo_srv) StdoutLine: {'line': b'writing top-level names to ../build/ardu_servo_srv/ardu_servo_srv.egg-info/top_level.txt\n'}
+[9.740102] (ardu_servo_srv) StdoutLine: {'line': b"writing manifest file '../build/ardu_servo_srv/ardu_servo_srv.egg-info/SOURCES.txt'\n"}
+[9.744056] (ros_ardu) StdoutLine: {'line': b'creating /home/kmw/ros2_ws/src/build/ros_ardu/build/lib/ros_ardu\n'}
+[9.744412] (ros_ardu) StdoutLine: {'line': b'copying ros_ardu/ardu_ser.py -> /home/kmw/ros2_ws/src/build/ros_ardu/build/lib/ros_ardu\n'}
+[9.744687] (ros_ardu) StdoutLine: {'line': b'copying ros_ardu/__init__.py -> /home/kmw/ros2_ws/src/build/ros_ardu/build/lib/ros_ardu\n'}
+[9.745006] (ros_ardu) StdoutLine: {'line': b'copying ros_ardu/ardu_cli.py -> /home/kmw/ros2_ws/src/build/ros_ardu/build/lib/ros_ardu\n'}
+[9.745259] (ros_ardu) StdoutLine: {'line': b'copying ros_ardu/serial_check.py -> /home/kmw/ros2_ws/src/build/ros_ardu/build/lib/ros_ardu\n'}
+[9.745475] (-) TimerEvent: {}
+[9.746037] (ros_ardu) StdoutLine: {'line': b'running install\n'}
+[9.756172] (py_srv) StdoutLine: {'line': b'running egg_info\n'}
+[9.756563] (py_srv) StdoutLine: {'line': b'creating ../build/py_srv/py_srv.egg-info\n'}
+[9.768066] (ros_ardu) StdoutLine: {'line': b'running install_lib\n'}
+[9.809651] (ros_cv) StdoutLine: {'line': b'Copying ../build/ros_cv/ros_cv.egg-info to /home/kmw/ros2_ws/src/install/ros_cv/lib/python3.10/site-packages/ros_cv-0.0.0-py3.10.egg-info\n'}
+[9.812245] (ros_cv) StdoutLine: {'line': b'running install_scripts\n'}
+[9.845603] (-) TimerEvent: {}
+[9.846845] (py_srv) StdoutLine: {'line': b'writing ../build/py_srv/py_srv.egg-info/PKG-INFO\n'}
+[9.848507] (py_srv) StdoutLine: {'line': b'writing dependency_links to ../build/py_srv/py_srv.egg-info/dependency_links.txt\n'}
+[9.850078] (py_srv) StdoutLine: {'line': b'writing entry points to ../build/py_srv/py_srv.egg-info/entry_points.txt\n'}
+[9.850430] (py_srv) StdoutLine: {'line': b'writing requirements to ../build/py_srv/py_srv.egg-info/requires.txt\n'}
+[9.850672] (py_srv) StdoutLine: {'line': b'writing top-level names to ../build/py_srv/py_srv.egg-info/top_level.txt\n'}
+[9.852036] (py_srv) StdoutLine: {'line': b"writing manifest file '../build/py_srv/py_srv.egg-info/SOURCES.txt'\n"}
+[9.854819] (ros_ardu) StdoutLine: {'line': b'creating /home/kmw/ros2_ws/src/install/ros_ardu/lib/python3.10/site-packages/ros_ardu\n'}
+[9.855568] (ros_ardu) StdoutLine: {'line': b'copying /home/kmw/ros2_ws/src/build/ros_ardu/build/lib/ros_ardu/ardu_ser.py -> /home/kmw/ros2_ws/src/install/ros_ardu/lib/python3.10/site-packages/ros_ardu\n'}
+[9.860048] (ros_ardu) StdoutLine: {'line': b'copying /home/kmw/ros2_ws/src/build/ros_ardu/build/lib/ros_ardu/__init__.py -> /home/kmw/ros2_ws/src/install/ros_ardu/lib/python3.10/site-packages/ros_ardu\n'}
+[9.860517] (ros_ardu) StdoutLine: {'line': b'copying /home/kmw/ros2_ws/src/build/ros_ardu/build/lib/ros_ardu/ardu_cli.py -> /home/kmw/ros2_ws/src/install/ros_ardu/lib/python3.10/site-packages/ros_ardu\n'}
+[9.860788] (ros_ardu) StdoutLine: {'line': b'copying /home/kmw/ros2_ws/src/build/ros_ardu/build/lib/ros_ardu/serial_check.py -> /home/kmw/ros2_ws/src/install/ros_ardu/lib/python3.10/site-packages/ros_ardu\n'}
+[9.861045] (ros_ardu) StdoutLine: {'line': b'byte-compiling /home/kmw/ros2_ws/src/install/ros_ardu/lib/python3.10/site-packages/ros_ardu/ardu_ser.py to ardu_ser.cpython-310.pyc\n'}
+[9.861380] (ros_ardu) StdoutLine: {'line': b'byte-compiling /home/kmw/ros2_ws/src/install/ros_ardu/lib/python3.10/site-packages/ros_ardu/__init__.py to __init__.cpython-310.pyc\n'}
+[9.861734] (ros_ardu) StdoutLine: {'line': b'byte-compiling /home/kmw/ros2_ws/src/install/ros_ardu/lib/python3.10/site-packages/ros_ardu/ardu_cli.py to ardu_cli.cpython-310.pyc\n'}
+[9.863074] (ros_ardu) StdoutLine: {'line': b'byte-compiling /home/kmw/ros2_ws/src/install/ros_ardu/lib/python3.10/site-packages/ros_ardu/serial_check.py to serial_check.cpython-310.pyc\n'}
+[9.864825] (ros_ardu) StdoutLine: {'line': b'running install_data\n'}
+[9.865219] (ros_ardu) StdoutLine: {'line': b'creating /home/kmw/ros2_ws/src/install/ros_ardu/share/ament_index/resource_index/packages\n'}
+[9.865901] (ros_ardu) StdoutLine: {'line': b'copying resource/ros_ardu -> /home/kmw/ros2_ws/src/install/ros_ardu/share/ament_index/resource_index/packages\n'}
+[9.866871] (ros_ardu) StdoutLine: {'line': b'copying package.xml -> /home/kmw/ros2_ws/src/install/ros_ardu/share/ros_ardu\n'}
+[9.867316] (ros_ardu) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.871640] (ros_good) StdoutLine: {'line': b"reading manifest file '../build/ros_good/ros_good.egg-info/SOURCES.txt'\n"}
+[9.878060] (ros_good) StdoutLine: {'line': b"writing manifest file '../build/ros_good/ros_good.egg-info/SOURCES.txt'\n"}
+[9.878505] (ros_good) StdoutLine: {'line': b'running build\n'}
+[9.878763] (ros_good) StdoutLine: {'line': b'running build_py\n'}
+[9.880565] (ros_good) StdoutLine: {'line': b'creating /home/kmw/ros2_ws/src/build/ros_good/build/lib/ros_good\n'}
+[9.880917] (ros_good) StdoutLine: {'line': b'copying ros_good/cam_cli.py -> /home/kmw/ros2_ws/src/build/ros_good/build/lib/ros_good\n'}
+[9.881547] (ros_good) StdoutLine: {'line': b'copying ros_good/cam_ser.py -> /home/kmw/ros2_ws/src/build/ros_good/build/lib/ros_good\n'}
+[9.884052] (ros_good) StdoutLine: {'line': b'copying ros_good/__init__.py -> /home/kmw/ros2_ws/src/build/ros_good/build/lib/ros_good\n'}
+[9.884434] (ros_good) StdoutLine: {'line': b'running install\n'}
+[9.907167] (ros_good) StdoutLine: {'line': b'running install_lib\n'}
+[9.917255] (ardu_servo_srv) StdoutLine: {'line': b"reading manifest file '../build/ardu_servo_srv/ardu_servo_srv.egg-info/SOURCES.txt'\n"}
+[9.925047] (ardu_servo_srv) StdoutLine: {'line': b"writing manifest file '../build/ardu_servo_srv/ardu_servo_srv.egg-info/SOURCES.txt'\n"}
+[9.925393] (ardu_servo_srv) StdoutLine: {'line': b'running build\n'}
+[9.925638] (ardu_servo_srv) StdoutLine: {'line': b'running build_py\n'}
+[9.925873] (ardu_servo_srv) StdoutLine: {'line': b'creating /home/kmw/ros2_ws/src/build/ardu_servo_srv/build/lib/ardu_servo_srv\n'}
+[9.926244] (ardu_servo_srv) StdoutLine: {'line': b'copying ardu_servo_srv/ardu_ser.py -> /home/kmw/ros2_ws/src/build/ardu_servo_srv/build/lib/ardu_servo_srv\n'}
+[9.926483] (ardu_servo_srv) StdoutLine: {'line': b'copying ardu_servo_srv/__init__.py -> /home/kmw/ros2_ws/src/build/ardu_servo_srv/build/lib/ardu_servo_srv\n'}
+[9.926703] (ardu_servo_srv) StdoutLine: {'line': b'copying ardu_servo_srv/ardu_cli.py -> /home/kmw/ros2_ws/src/build/ardu_servo_srv/build/lib/ardu_servo_srv\n'}
+[9.926921] (ardu_servo_srv) StdoutLine: {'line': b'running install\n'}
+[9.945035] (ardu_servo_srv) StdoutLine: {'line': b'running install_lib\n'}
+[9.945702] (-) TimerEvent: {}
+[9.958338] (ros_ardu) StdoutLine: {'line': b'Copying ../build/ros_ardu/ros_ardu.egg-info to /home/kmw/ros2_ws/src/install/ros_ardu/lib/python3.10/site-packages/ros_ardu-0.0.0-py3.10.egg-info\n'}
+[9.961747] (ros_ardu) StdoutLine: {'line': b'running install_scripts\n'}
+[10.003118] (ros_good) StdoutLine: {'line': b'creating /home/kmw/ros2_ws/src/install/ros_good/lib/python3.10/site-packages/ros_good\n'}
+[10.008103] (ros_good) StdoutLine: {'line': b'copying /home/kmw/ros2_ws/src/build/ros_good/build/lib/ros_good/cam_cli.py -> /home/kmw/ros2_ws/src/install/ros_good/lib/python3.10/site-packages/ros_good\n'}
+[10.008528] (ros_good) StdoutLine: {'line': b'copying /home/kmw/ros2_ws/src/build/ros_good/build/lib/ros_good/cam_ser.py -> /home/kmw/ros2_ws/src/install/ros_good/lib/python3.10/site-packages/ros_good\n'}
+[10.008842] (ros_good) StdoutLine: {'line': b'copying /home/kmw/ros2_ws/src/build/ros_good/build/lib/ros_good/__init__.py -> /home/kmw/ros2_ws/src/install/ros_good/lib/python3.10/site-packages/ros_good\n'}
+[10.009145] (ros_good) StdoutLine: {'line': b'byte-compiling /home/kmw/ros2_ws/src/install/ros_good/lib/python3.10/site-packages/ros_good/cam_cli.py to cam_cli.cpython-310.pyc\n'}
+[10.012024] (ros_good) StdoutLine: {'line': b'byte-compiling /home/kmw/ros2_ws/src/install/ros_good/lib/python3.10/site-packages/ros_good/cam_ser.py to cam_ser.cpython-310.pyc\n'}
+[10.014183] (ros_good) StdoutLine: {'line': b'byte-compiling /home/kmw/ros2_ws/src/install/ros_good/lib/python3.10/site-packages/ros_good/__init__.py to __init__.cpython-310.pyc\n'}
+[10.015332] (ros_good) StdoutLine: {'line': b'running install_data\n'}
+[10.016726] (ros_good) StdoutLine: {'line': b'creating /home/kmw/ros2_ws/src/install/ros_good/share/ament_index/resource_index/packages\n'}
+[10.019044] (ros_good) StdoutLine: {'line': b'copying resource/ros_good -> /home/kmw/ros2_ws/src/install/ros_good/share/ament_index/resource_index/packages\n'}
+[10.019403] (ros_good) StdoutLine: {'line': b'copying package.xml -> /home/kmw/ros2_ws/src/install/ros_good/share/ros_good\n'}
+[10.020139] (ros_good) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.047057] (py_srv) StdoutLine: {'line': b"reading manifest file '../build/py_srv/py_srv.egg-info/SOURCES.txt'\n"}
+[10.047407] (-) TimerEvent: {}
+[10.048795] (py_srv) StdoutLine: {'line': b"writing manifest file '../build/py_srv/py_srv.egg-info/SOURCES.txt'\n"}
+[10.049250] (py_srv) StdoutLine: {'line': b'running build\n'}
+[10.049575] (py_srv) StdoutLine: {'line': b'running build_py\n'}
+[10.052152] (py_srv) StdoutLine: {'line': b'creating /home/kmw/ros2_ws/src/build/py_srv/build/lib/py_srv\n'}
+[10.052520] (py_srv) StdoutLine: {'line': b'copying py_srv/service.py -> /home/kmw/ros2_ws/src/build/py_srv/build/lib/py_srv\n'}
+[10.052762] (py_srv) StdoutLine: {'line': b'copying py_srv/client.py -> /home/kmw/ros2_ws/src/build/py_srv/build/lib/py_srv\n'}
+[10.053017] (py_srv) StdoutLine: {'line': b'copying py_srv/__init__.py -> /home/kmw/ros2_ws/src/build/py_srv/build/lib/py_srv\n'}
+[10.053348] (py_srv) StdoutLine: {'line': b'running install\n'}
+[10.058179] (ardu_servo_srv) StdoutLine: {'line': b'creating /home/kmw/ros2_ws/src/install/ardu_servo_srv/lib/python3.10/site-packages/ardu_servo_srv\n'}
+[10.062293] (ardu_servo_srv) StdoutLine: {'line': b'copying /home/kmw/ros2_ws/src/build/ardu_servo_srv/build/lib/ardu_servo_srv/ardu_ser.py -> /home/kmw/ros2_ws/src/install/ardu_servo_srv/lib/python3.10/site-packages/ardu_servo_srv\n'}
+[10.062630] (ardu_servo_srv) StdoutLine: {'line': b'copying /home/kmw/ros2_ws/src/build/ardu_servo_srv/build/lib/ardu_servo_srv/__init__.py -> /home/kmw/ros2_ws/src/install/ardu_servo_srv/lib/python3.10/site-packages/ardu_servo_srv\n'}
+[10.062856] (ardu_servo_srv) StdoutLine: {'line': b'copying /home/kmw/ros2_ws/src/build/ardu_servo_srv/build/lib/ardu_servo_srv/ardu_cli.py -> /home/kmw/ros2_ws/src/install/ardu_servo_srv/lib/python3.10/site-packages/ardu_servo_srv\n'}
+[10.063081] (ardu_servo_srv) StdoutLine: {'line': b'byte-compiling /home/kmw/ros2_ws/src/install/ardu_servo_srv/lib/python3.10/site-packages/ardu_servo_srv/ardu_ser.py to ardu_ser.cpython-310.pyc\n'}
+[10.066374] (ardu_servo_srv) StdoutLine: {'line': b'byte-compiling /home/kmw/ros2_ws/src/install/ardu_servo_srv/lib/python3.10/site-packages/ardu_servo_srv/__init__.py to __init__.cpython-310.pyc\n'}
+[10.066613] (ardu_servo_srv) StdoutLine: {'line': b'byte-compiling /home/kmw/ros2_ws/src/install/ardu_servo_srv/lib/python3.10/site-packages/ardu_servo_srv/ardu_cli.py to ardu_cli.cpython-310.pyc\n'}
+[10.066813] (ardu_servo_srv) StdoutLine: {'line': b'running install_data\n'}
+[10.067040] (ardu_servo_srv) StdoutLine: {'line': b'creating /home/kmw/ros2_ws/src/install/ardu_servo_srv/share/ament_index/resource_index/packages\n'}
+[10.067356] (ardu_servo_srv) StdoutLine: {'line': b'copying resource/ardu_servo_srv -> /home/kmw/ros2_ws/src/install/ardu_servo_srv/share/ament_index/resource_index/packages\n'}
+[10.067817] (ardu_servo_srv) StdoutLine: {'line': b'copying package.xml -> /home/kmw/ros2_ws/src/install/ardu_servo_srv/share/ardu_servo_srv\n'}
+[10.068192] (ardu_servo_srv) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.073279] (py_srv) StdoutLine: {'line': b'running install_lib\n'}
+[10.132061] (ros_good) StdoutLine: {'line': b'Copying ../build/ros_good/ros_good.egg-info to /home/kmw/ros2_ws/src/install/ros_good/lib/python3.10/site-packages/ros_good-0.0.0-py3.10.egg-info\n'}
+[10.132452] (ros_good) StdoutLine: {'line': b'running install_scripts\n'}
+[10.147542] (-) TimerEvent: {}
+[10.163627] (ardu_servo_srv) StdoutLine: {'line': b'Copying ../build/ardu_servo_srv/ardu_servo_srv.egg-info to /home/kmw/ros2_ws/src/install/ardu_servo_srv/lib/python3.10/site-packages/ardu_servo_srv-0.0.0-py3.10.egg-info\n'}
+[10.165971] (ardu_servo_srv) StdoutLine: {'line': b'running install_scripts\n'}
+[10.172487] (py_srv) StdoutLine: {'line': b'creating /home/kmw/ros2_ws/src/install/py_srv/lib/python3.10/site-packages/py_srv\n'}
+[10.173052] (py_srv) StdoutLine: {'line': b'copying /home/kmw/ros2_ws/src/build/py_srv/build/lib/py_srv/service.py -> /home/kmw/ros2_ws/src/install/py_srv/lib/python3.10/site-packages/py_srv\n'}
+[10.173503] (py_srv) StdoutLine: {'line': b'copying /home/kmw/ros2_ws/src/build/py_srv/build/lib/py_srv/client.py -> /home/kmw/ros2_ws/src/install/py_srv/lib/python3.10/site-packages/py_srv\n'}
+[10.173961] (py_srv) StdoutLine: {'line': b'copying /home/kmw/ros2_ws/src/build/py_srv/build/lib/py_srv/__init__.py -> /home/kmw/ros2_ws/src/install/py_srv/lib/python3.10/site-packages/py_srv\n'}
+[10.182081] (py_srv) StdoutLine: {'line': b'byte-compiling /home/kmw/ros2_ws/src/install/py_srv/lib/python3.10/site-packages/py_srv/service.py to service.cpython-310.pyc\n'}
+[10.183263] (py_srv) StdoutLine: {'line': b'byte-compiling /home/kmw/ros2_ws/src/install/py_srv/lib/python3.10/site-packages/py_srv/client.py to client.cpython-310.pyc\n'}
+[10.185128] (py_srv) StdoutLine: {'line': b'byte-compiling /home/kmw/ros2_ws/src/install/py_srv/lib/python3.10/site-packages/py_srv/__init__.py to __init__.cpython-310.pyc\n'}
+[10.187053] (py_srv) StdoutLine: {'line': b'running install_data\n'}
+[10.187443] (py_srv) StdoutLine: {'line': b'creating /home/kmw/ros2_ws/src/install/py_srv/share/ament_index/resource_index/packages\n'}
+[10.187859] (py_srv) StdoutLine: {'line': b'copying resource/py_srv -> /home/kmw/ros2_ws/src/install/py_srv/share/ament_index/resource_index/packages\n'}
+[10.191165] (py_srv) StdoutLine: {'line': b'copying package.xml -> /home/kmw/ros2_ws/src/install/py_srv/share/py_srv\n'}
+[10.191586] (py_srv) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.246054] (cv_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.247648] (-) TimerEvent: {}
+[10.290999] (py_srv) StdoutLine: {'line': b'Copying ../build/py_srv/py_srv.egg-info to /home/kmw/ros2_ws/src/install/py_srv/lib/python3.10/site-packages/py_srv-0.0.0-py3.10.egg-info\n'}
+[10.295061] (py_srv) StdoutLine: {'line': b'running install_scripts\n'}
+[10.316103] (cv_msg) StdoutLine: {'line': b'-- Found PythonInterp: /home/kmw/miniconda3/envs/ros2_py310/bin/python3 (found suitable version "3.10.14", minimum required is "3.6") \n'}
+[10.324373] (cv_msg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[10.350073] (-) TimerEvent: {}
+[10.390326] (cv_msg) StdoutLine: {'line': b'-- Found PythonLibs: /home/kmw/miniconda3/envs/ros2_py310/lib/libpython3.10.so (found suitable version "3.10.14", minimum required is "3.5") \n'}
+[10.391354] (cv_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/kmw/miniconda3/envs/ros2_py310/bin/python3\n'}
+[10.392005] (cv_msg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /home/kmw/miniconda3/envs/ros2_py310/include/python3.10\n'}
+[10.393125] (cv_msg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /home/kmw/miniconda3/envs/ros2_py310/lib/libpython3.10.so\n'}
+[10.453444] (-) TimerEvent: {}
+[10.453960] (cv_msg) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[10.550944] (ros_cv) StdoutLine: {'line': b'Installing cam_pub script to /home/kmw/ros2_ws/src/install/ros_cv/lib/ros_cv\n'}
+[10.552771] (ros_cv) StdoutLine: {'line': b'Installing cam_sub script to /home/kmw/ros2_ws/src/install/ros_cv/lib/ros_cv\n'}
+[10.553183] (ros_cv) StdoutLine: {'line': b"writing list of installed files to '/home/kmw/ros2_ws/src/build/ros_cv/install.log'\n"}
+[10.553530] (-) TimerEvent: {}
+[10.658133] (-) TimerEvent: {}
+[10.673302] (ros_ardu_motor) StdoutLine: {'line': b'running egg_info\n'}
+[10.674575] (ros_ardu_motor) StdoutLine: {'line': b'creating ../build/ros_ardu_motor/ros_ardu_motor.egg-info\n'}
+[10.675005] (ros_ardu_motor) StdoutLine: {'line': b'writing ../build/ros_ardu_motor/ros_ardu_motor.egg-info/PKG-INFO\n'}
+[10.675410] (ros_ardu_motor) StdoutLine: {'line': b'writing dependency_links to ../build/ros_ardu_motor/ros_ardu_motor.egg-info/dependency_links.txt\n'}
+[10.675783] (ros_ardu_motor) StdoutLine: {'line': b'writing entry points to ../build/ros_ardu_motor/ros_ardu_motor.egg-info/entry_points.txt\n'}
+[10.676187] (ros_ardu_motor) StdoutLine: {'line': b'writing requirements to ../build/ros_ardu_motor/ros_ardu_motor.egg-info/requires.txt\n'}
+[10.676593] (ros_ardu_motor) StdoutLine: {'line': b'writing top-level names to ../build/ros_ardu_motor/ros_ardu_motor.egg-info/top_level.txt\n'}
+[10.676954] (ros_ardu_motor) StdoutLine: {'line': b"writing manifest file '../build/ros_ardu_motor/ros_ardu_motor.egg-info/SOURCES.txt'\n"}
+[10.684585] (ros_ardu_motor) StdoutLine: {'line': b"reading manifest file '../build/ros_ardu_motor/ros_ardu_motor.egg-info/SOURCES.txt'\n"}
+[10.684955] (ros_ardu_motor) StdoutLine: {'line': b"writing manifest file '../build/ros_ardu_motor/ros_ardu_motor.egg-info/SOURCES.txt'\n"}
+[10.685335] (ros_ardu_motor) StdoutLine: {'line': b'running build\n'}
+[10.685666] (ros_ardu_motor) StdoutLine: {'line': b'running build_py\n'}
+[10.686003] (ros_ardu_motor) StdoutLine: {'line': b'creating /home/kmw/ros2_ws/src/build/ros_ardu_motor/build/lib/ros_ardu_motor\n'}
+[10.686498] (ros_ardu_motor) StdoutLine: {'line': b'copying ros_ardu_motor/motor_cli.py -> /home/kmw/ros2_ws/src/build/ros_ardu_motor/build/lib/ros_ardu_motor\n'}
+[10.686969] (ros_ardu_motor) StdoutLine: {'line': b'copying ros_ardu_motor/__init__.py -> /home/kmw/ros2_ws/src/build/ros_ardu_motor/build/lib/ros_ardu_motor\n'}
+[10.687441] (ros_ardu_motor) StdoutLine: {'line': b'copying ros_ardu_motor/motor_ser.py -> /home/kmw/ros2_ws/src/build/ros_ardu_motor/build/lib/ros_ardu_motor\n'}
+[10.687947] (ros_ardu_motor) StdoutLine: {'line': b'running install\n'}
+[10.720809] (ros_ardu_motor) StdoutLine: {'line': b'running install_lib\n'}
+[10.721243] (ros_ardu_motor) StdoutLine: {'line': b'creating /home/kmw/ros2_ws/src/install/ros_ardu_motor/lib/python3.10/site-packages/ros_ardu_motor\n'}
+[10.721596] (ros_ardu_motor) StdoutLine: {'line': b'copying /home/kmw/ros2_ws/src/build/ros_ardu_motor/build/lib/ros_ardu_motor/motor_cli.py -> /home/kmw/ros2_ws/src/install/ros_ardu_motor/lib/python3.10/site-packages/ros_ardu_motor\n'}
+[10.721933] (ros_ardu_motor) StdoutLine: {'line': b'copying /home/kmw/ros2_ws/src/build/ros_ardu_motor/build/lib/ros_ardu_motor/__init__.py -> /home/kmw/ros2_ws/src/install/ros_ardu_motor/lib/python3.10/site-packages/ros_ardu_motor\n'}
+[10.722301] (ros_ardu_motor) StdoutLine: {'line': b'copying /home/kmw/ros2_ws/src/build/ros_ardu_motor/build/lib/ros_ardu_motor/motor_ser.py -> /home/kmw/ros2_ws/src/install/ros_ardu_motor/lib/python3.10/site-packages/ros_ardu_motor\n'}
+[10.722637] (ros_ardu_motor) StdoutLine: {'line': b'byte-compiling /home/kmw/ros2_ws/src/install/ros_ardu_motor/lib/python3.10/site-packages/ros_ardu_motor/motor_cli.py to motor_cli.cpython-310.pyc\n'}
+[10.722971] (ros_ardu_motor) StdoutLine: {'line': b'byte-compiling /home/kmw/ros2_ws/src/install/ros_ardu_motor/lib/python3.10/site-packages/ros_ardu_motor/__init__.py to __init__.cpython-310.pyc\n'}
+[10.723341] (ros_ardu_motor) StdoutLine: {'line': b'byte-compiling /home/kmw/ros2_ws/src/install/ros_ardu_motor/lib/python3.10/site-packages/ros_ardu_motor/motor_ser.py to motor_ser.cpython-310.pyc\n'}
+[10.723638] (ros_ardu_motor) StdoutLine: {'line': b'running install_data\n'}
+[10.723933] (ros_ardu_motor) StdoutLine: {'line': b'creating /home/kmw/ros2_ws/src/install/ros_ardu_motor/share/ament_index/resource_index/packages\n'}
+[10.724290] (ros_ardu_motor) StdoutLine: {'line': b'copying resource/ros_ardu_motor -> /home/kmw/ros2_ws/src/install/ros_ardu_motor/share/ament_index/resource_index/packages\n'}
+[10.724587] (ros_ardu_motor) StdoutLine: {'line': b'copying package.xml -> /home/kmw/ros2_ws/src/install/ros_ardu_motor/share/ros_ardu_motor\n'}
+[10.724876] (ros_ardu_motor) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.725211] (ros_ardu_motor) StdoutLine: {'line': b'Copying ../build/ros_ardu_motor/ros_ardu_motor.egg-info to /home/kmw/ros2_ws/src/install/ros_ardu_motor/lib/python3.10/site-packages/ros_ardu_motor-0.0.0-py3.10.egg-info\n'}
+[10.725522] (ros_ardu_motor) StdoutLine: {'line': b'running install_scripts\n'}
+[10.725813] (ros_cv) CommandEnded: {'returncode': 0}
+[10.771923] (-) TimerEvent: {}
+[10.778634] (ros_cv) JobEnded: {'identifier': 'ros_cv', 'rc': 0}
+[10.780715] (ros_msg) JobStarted: {'identifier': 'ros_msg'}
+[10.786072] (ros_ardu) StdoutLine: {'line': b'Installing ardu_cli script to /home/kmw/ros2_ws/src/install/ros_ardu/lib/ros_ardu\n'}
+[10.786493] (ros_ardu) StdoutLine: {'line': b'Installing ardu_ser script to /home/kmw/ros2_ws/src/install/ros_ardu/lib/ros_ardu\n'}
+[10.786771] (ros_ardu) StdoutLine: {'line': b"writing list of installed files to '/home/kmw/ros2_ws/src/build/ros_ardu/install.log'\n"}
+[10.897123] (-) TimerEvent: {}
+[10.998062] (-) TimerEvent: {}
+[11.099081] (-) TimerEvent: {}
+[11.191202] (cv_msg) StdoutLine: {'line': b'-- Using numpy include directory: /home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/numpy/_core/include\n'}
+[11.199329] (-) TimerEvent: {}
+[11.211652] (ardu_servo_srv) StdoutLine: {'line': b"writing list of installed files to '/home/kmw/ros2_ws/src/build/ardu_servo_srv/install.log'\n"}
+[11.226269] (ros_ardu_motor) StdoutLine: {'line': b'Installing motor_cli script to /home/kmw/ros2_ws/src/install/ros_ardu_motor/lib/ros_ardu_motor\n'}
+[11.227538] (ros_ardu_motor) StdoutLine: {'line': b'Installing motor_ser script to /home/kmw/ros2_ws/src/install/ros_ardu_motor/lib/ros_ardu_motor\n'}
+[11.246174] (ros_ardu_motor) StdoutLine: {'line': b"writing list of installed files to '/home/kmw/ros2_ws/src/build/ros_ardu_motor/install.log'\n"}
+[11.304186] (-) TimerEvent: {}
+[11.355630] (ros_good) StdoutLine: {'line': b'Installing cam_cli script to /home/kmw/ros2_ws/src/install/ros_good/lib/ros_good\n'}
+[11.358145] (cv_msg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[11.359083] (ros_good) StdoutLine: {'line': b'Installing cam_ser script to /home/kmw/ros2_ws/src/install/ros_good/lib/ros_good\n'}
+[11.364161] (ros_good) StdoutLine: {'line': b"writing list of installed files to '/home/kmw/ros2_ws/src/build/ros_good/install.log'\n"}
+[11.404436] (-) TimerEvent: {}
+[11.508457] (-) TimerEvent: {}
+[11.521654] (py_srv) StdoutLine: {'line': b'Installing client script to /home/kmw/ros2_ws/src/install/py_srv/lib/py_srv\n'}
+[11.523441] (py_srv) StdoutLine: {'line': b'Installing service script to /home/kmw/ros2_ws/src/install/py_srv/lib/py_srv\n'}
+[11.526066] (py_srv) StdoutLine: {'line': b"writing list of installed files to '/home/kmw/ros2_ws/src/build/py_srv/install.log'\n"}
+[11.596256] (cv_msg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[11.606974] (cv_msg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[11.608617] (-) TimerEvent: {}
+[11.627948] (cv_msg) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.708787] (-) TimerEvent: {}
+[11.766396] (cv_msg) StdoutLine: {'line': b'-- Generating done\n'}
+[11.775472] (cv_msg) StdoutLine: {'line': b'-- Build files have been written to: /home/kmw/ros2_ws/src/build/cv_msg\n'}
+[11.808945] (-) TimerEvent: {}
+[11.909574] (-) TimerEvent: {}
+[12.010172] (-) TimerEvent: {}
+[12.110921] (-) TimerEvent: {}
+[12.211691] (-) TimerEvent: {}
+[12.319203] (cv_center) StdoutLine: {'line': b'running egg_info\n'}
+[12.319777] (-) TimerEvent: {}
+[12.324994] (cv_center) StdoutLine: {'line': b'creating ../build/cv_center/cv_center.egg-info\n'}
+[12.327286] (cv_center) StdoutLine: {'line': b'writing ../build/cv_center/cv_center.egg-info/PKG-INFO\n'}
+[12.327667] (cv_center) StdoutLine: {'line': b'writing dependency_links to ../build/cv_center/cv_center.egg-info/dependency_links.txt\n'}
+[12.328081] (cv_center) StdoutLine: {'line': b'writing entry points to ../build/cv_center/cv_center.egg-info/entry_points.txt\n'}
+[12.328443] (cv_center) StdoutLine: {'line': b'writing requirements to ../build/cv_center/cv_center.egg-info/requires.txt\n'}
+[12.328767] (cv_center) StdoutLine: {'line': b'writing top-level names to ../build/cv_center/cv_center.egg-info/top_level.txt\n'}
+[12.329247] (cv_center) StdoutLine: {'line': b"writing manifest file '../build/cv_center/cv_center.egg-info/SOURCES.txt'\n"}
+[12.329679] (cv_center) StdoutLine: {'line': b"reading manifest file '../build/cv_center/cv_center.egg-info/SOURCES.txt'\n"}
+[12.330019] (cv_center) StdoutLine: {'line': b"writing manifest file '../build/cv_center/cv_center.egg-info/SOURCES.txt'\n"}
+[12.330549] (cv_center) StdoutLine: {'line': b'running build\n'}
+[12.330875] (cv_center) StdoutLine: {'line': b'running build_py\n'}
+[12.331223] (cv_center) StdoutLine: {'line': b'creating /home/kmw/ros2_ws/src/build/cv_center/build/lib/cv_center\n'}
+[12.331522] (cv_center) StdoutLine: {'line': b'copying cv_center/center_sub.py -> /home/kmw/ros2_ws/src/build/cv_center/build/lib/cv_center\n'}
+[12.331815] (cv_center) StdoutLine: {'line': b'copying cv_center/__init__.py -> /home/kmw/ros2_ws/src/build/cv_center/build/lib/cv_center\n'}
+[12.332154] (cv_center) StdoutLine: {'line': b'copying cv_center/center_pub.py -> /home/kmw/ros2_ws/src/build/cv_center/build/lib/cv_center\n'}
+[12.332762] (cv_center) StdoutLine: {'line': b'running install\n'}
+[12.333193] (cv_center) StdoutLine: {'line': b'running install_lib\n'}
+[12.333484] (cv_center) StdoutLine: {'line': b'creating /home/kmw/ros2_ws/src/install/cv_center/lib/python3.10/site-packages/cv_center\n'}
+[12.333817] (cv_center) StdoutLine: {'line': b'copying /home/kmw/ros2_ws/src/build/cv_center/build/lib/cv_center/center_sub.py -> /home/kmw/ros2_ws/src/install/cv_center/lib/python3.10/site-packages/cv_center\n'}
+[12.334162] (cv_center) StdoutLine: {'line': b'copying /home/kmw/ros2_ws/src/build/cv_center/build/lib/cv_center/__init__.py -> /home/kmw/ros2_ws/src/install/cv_center/lib/python3.10/site-packages/cv_center\n'}
+[12.334477] (cv_center) StdoutLine: {'line': b'copying /home/kmw/ros2_ws/src/build/cv_center/build/lib/cv_center/center_pub.py -> /home/kmw/ros2_ws/src/install/cv_center/lib/python3.10/site-packages/cv_center\n'}
+[12.334774] (cv_center) StdoutLine: {'line': b'byte-compiling /home/kmw/ros2_ws/src/install/cv_center/lib/python3.10/site-packages/cv_center/center_sub.py to center_sub.cpython-310.pyc\n'}
+[12.335108] (cv_center) StdoutLine: {'line': b'byte-compiling /home/kmw/ros2_ws/src/install/cv_center/lib/python3.10/site-packages/cv_center/__init__.py to __init__.cpython-310.pyc\n'}
+[12.335420] (cv_center) StdoutLine: {'line': b'byte-compiling /home/kmw/ros2_ws/src/install/cv_center/lib/python3.10/site-packages/cv_center/center_pub.py to center_pub.cpython-310.pyc\n'}
+[12.335658] (cv_center) StdoutLine: {'line': b'running install_data\n'}
+[12.335963] (cv_center) StdoutLine: {'line': b'creating /home/kmw/ros2_ws/src/install/cv_center/share/ament_index/resource_index/packages\n'}
+[12.336234] (cv_center) StdoutLine: {'line': b'copying resource/cv_center -> /home/kmw/ros2_ws/src/install/cv_center/share/ament_index/resource_index/packages\n'}
+[12.336458] (cv_center) StdoutLine: {'line': b'copying package.xml -> /home/kmw/ros2_ws/src/install/cv_center/share/cv_center\n'}
+[12.336678] (cv_center) StdoutLine: {'line': b'running install_egg_info\n'}
+[12.336893] (cv_center) StdoutLine: {'line': b'Copying ../build/cv_center/cv_center.egg-info to /home/kmw/ros2_ws/src/install/cv_center/lib/python3.10/site-packages/cv_center-0.0.0-py3.10.egg-info\n'}
+[12.337150] (cv_center) StdoutLine: {'line': b'running install_scripts\n'}
+[12.337375] (cv_center) StdoutLine: {'line': b'Installing center_pub script to /home/kmw/ros2_ws/src/install/cv_center/lib/cv_center\n'}
+[12.337596] (cv_center) StdoutLine: {'line': b'Installing center_sub script to /home/kmw/ros2_ws/src/install/cv_center/lib/cv_center\n'}
+[12.337809] (cv_center) StdoutLine: {'line': b"writing list of installed files to '/home/kmw/ros2_ws/src/build/cv_center/install.log'\n"}
+[12.338041] (ardu_servo_srv) CommandEnded: {'returncode': 0}
+[12.356393] (ardu_servo_srv) JobEnded: {'identifier': 'ardu_servo_srv', 'rc': 0}
+[12.358683] (ros_ardu_motor) CommandEnded: {'returncode': 0}
+[12.381685] (ros_ardu_motor) JobEnded: {'identifier': 'ros_ardu_motor', 'rc': 0}
+[12.384481] (cv_center) CommandEnded: {'returncode': 0}
+[12.408700] (cv_center) JobEnded: {'identifier': 'cv_center', 'rc': 0}
+[12.410456] (ros_good) CommandEnded: {'returncode': 0}
+[12.420910] (-) TimerEvent: {}
+[12.438296] (ros_good) JobEnded: {'identifier': 'ros_good', 'rc': 0}
+[12.440878] (ros_ardu) CommandEnded: {'returncode': 0}
+[12.473057] (ros_ardu) JobEnded: {'identifier': 'ros_ardu', 'rc': 0}
+[12.474841] (ros_servo) JobStarted: {'identifier': 'ros_servo'}
+[12.497969] (cv_msg) CommandEnded: {'returncode': 0}
+[12.501276] (cv_msg) JobProgress: {'identifier': 'cv_msg', 'progress': 'build'}
+[12.505706] (cv_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kmw/ros2_ws/src/build/cv_msg', '--', '-j8', '-l8'], 'cwd': '/home/kmw/ros2_ws/src/build/cv_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(ros2_py310)'), ('USER', 'kmw'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kmw/ros2_ws/install/cv_msg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kmw'), ('CONDA_SHLVL', '2'), ('OLDPWD', '/home/kmw/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1478'), ('SYSTEMD_EXEC_PID', '1818'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7292'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kmw/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kmw'), ('JOURNAL_STREAM', '8:13024'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kmw'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/kmw/gems/bin:/home/kmw/gems/bin:/home/kmw/miniconda3/envs/ros2_py310/bin:/home/kmw/miniconda3/condabin:/home/kmw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kmw:@/tmp/.ICE-unix/1623,unix/kmw:/tmp/.ICE-unix/1623'), ('INVOCATION_ID', '06e6c9a8ea1943cca123643d39363342'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('CONDA_PREFIX_1', '/home/kmw/miniconda3'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1JI2U2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kmw/ros2_ws/install/ros_servo:/home/kmw/ros2_ws/install/ros_ardu_motor:/home/kmw/ros2_ws/install/ros_ardu:/home/kmw/ros2_ws/install/ros_good:/home/kmw/ros2_ws/install/cv_center:/home/kmw/ros2_ws/install/ros_cv:/home/kmw/ros2_ws/install/cv_msg:/home/kmw/ros2_ws/install/ros_msg:/home/kmw/ros2_ws/install/py_srv:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/kmw/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:a0e78e1a-eee0-4d31-83f8-072ba7cf2e7c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GEM_HOME', '/home/kmw/gems'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'ros2_py310'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kmw/ros2_ws/src/build/cv_msg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/kmw/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kmw/ros2_ws/install/ros_servo/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_ardu_motor/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_ardu/lib/python3.10/site-packages:/home/kmw/ros2_ws/build/ros_msg:/home/kmw/ros2_ws/build/ros_good:/home/kmw/ros2_ws/build/ros_cv:/home/kmw/ros2_ws/build/py_srv:/home/kmw/ros2_ws/build/cv_center:/home/kmw/ros2_ws/install/ros_good/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/ros_good/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_msg/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/ros_cv/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/cv_center/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/cv_msg/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/cv_center/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_cv/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/cv_msg/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_msg/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/py_srv/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/py_srv/lib/python3.12/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/kmw/miniconda3/lib/python3.12/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('CONDA_PREFIX', '/home/kmw/miniconda3/envs/ros2_py310'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kmw/ros2_ws/install/cv_msg:/home/kmw/ros2_ws/install/ros_servo:/home/kmw/ros2_ws/install/ros_ardu_motor:/home/kmw/ros2_ws/install/ros_ardu:/home/kmw/ros2_ws/install/ros_good:/home/kmw/ros2_ws/install/cv_center:/home/kmw/ros2_ws/install/ros_cv:/home/kmw/ros2_ws/install/ros_msg:/home/kmw/ros2_ws/install/py_srv:/opt/ros/humble')]), 'shell': False}
+[12.509633] (py_srv) CommandEnded: {'returncode': 0}
+[12.521088] (-) TimerEvent: {}
+[12.533227] (py_srv) JobEnded: {'identifier': 'py_srv', 'rc': 0}
+[12.621276] (-) TimerEvent: {}
+[12.653272] (cv_msg) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[12.716271] (cv_msg) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[12.721789] (-) TimerEvent: {}
+[12.743589] (cv_msg) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_cv_msg\n'}
+[12.821963] (-) TimerEvent: {}
+[12.922645] (-) TimerEvent: {}
+[13.023388] (-) TimerEvent: {}
+[13.125438] (-) TimerEvent: {}
+[13.226264] (-) TimerEvent: {}
+[13.328172] (-) TimerEvent: {}
+[13.428802] (-) TimerEvent: {}
+[13.529414] (-) TimerEvent: {}
+[13.630569] (-) TimerEvent: {}
+[13.734431] (-) TimerEvent: {}
+[13.834889] (-) TimerEvent: {}
+[13.850603] (cv_msg) StdoutLine: {'line': b'running egg_info\n'}
+[13.854596] (cv_msg) StdoutLine: {'line': b'creating cv_msg.egg-info\n'}
+[13.922524] (cv_msg) StdoutLine: {'line': b'writing cv_msg.egg-info/PKG-INFO\n'}
+[13.923451] (cv_msg) StdoutLine: {'line': b'writing dependency_links to cv_msg.egg-info/dependency_links.txt\n'}
+[13.924260] (cv_msg) StdoutLine: {'line': b'writing top-level names to cv_msg.egg-info/top_level.txt\n'}
+[13.924543] (cv_msg) StdoutLine: {'line': b"writing manifest file 'cv_msg.egg-info/SOURCES.txt'\n"}
+[13.935035] (-) TimerEvent: {}
+[14.035393] (-) TimerEvent: {}
+[14.111885] (cv_msg) StdoutLine: {'line': b"reading manifest file 'cv_msg.egg-info/SOURCES.txt'\n"}
+[14.114522] (cv_msg) StdoutLine: {'line': b"writing manifest file 'cv_msg.egg-info/SOURCES.txt'\n"}
+[14.135521] (-) TimerEvent: {}
+[14.188453] (cv_msg) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_build_cv_msg_egg\n'}
+[14.235662] (-) TimerEvent: {}
+[14.336066] (-) TimerEvent: {}
+[14.436492] (-) TimerEvent: {}
+[14.542068] (-) TimerEvent: {}
+[14.642574] (-) TimerEvent: {}
+[14.674752] (cv_msg) StdoutLine: {'line': b'[  2%] Built target cv_msg__cpp\n'}
+[14.706341] (cv_msg) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[14.731066] (cv_msg) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[14.741554] (cv_msg) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[14.742678] (-) TimerEvent: {}
+[14.843262] (-) TimerEvent: {}
+[14.925195] (ros_msg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/ros_msg', 'build', '--build-base', '/home/kmw/ros2_ws/src/build/ros_msg/build', 'install', '--record', '/home/kmw/ros2_ws/src/build/ros_msg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/kmw/ros2_ws/src/ros_msg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(ros2_py310)', 'USER': 'kmw', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/kmw/ros2_ws/install/cv_msg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kmw', 'CONDA_SHLVL': '2', 'OLDPWD': '/home/kmw/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '1478', 'SYSTEMD_EXEC_PID': '1818', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '7292', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kmw/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kmw', 'JOURNAL_STREAM': '8:13024', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kmw', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/kmw/gems/bin:/home/kmw/gems/bin:/home/kmw/miniconda3/envs/ros2_py310/bin:/home/kmw/miniconda3/condabin:/home/kmw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kmw:@/tmp/.ICE-unix/1623,unix/kmw:/tmp/.ICE-unix/1623', 'INVOCATION_ID': '06e6c9a8ea1943cca123643d39363342', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'CONDA_PREFIX_1': '/home/kmw/miniconda3', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1JI2U2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kmw/ros2_ws/install/ros_servo:/home/kmw/ros2_ws/install/ros_ardu_motor:/home/kmw/ros2_ws/install/ros_ardu:/home/kmw/ros2_ws/install/ros_good:/home/kmw/ros2_ws/install/cv_center:/home/kmw/ros2_ws/install/ros_cv:/home/kmw/ros2_ws/install/cv_msg:/home/kmw/ros2_ws/install/ros_msg:/home/kmw/ros2_ws/install/py_srv:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/kmw/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:a0e78e1a-eee0-4d31-83f8-072ba7cf2e7c', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GEM_HOME': '/home/kmw/gems', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'ros2_py310', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kmw/ros2_ws/src/build/ros_msg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/kmw/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kmw/ros2_ws/src/build/ros_msg/prefix_override:/home/kmw/miniconda3/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/ros2_ws/src/install/ros_msg/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_servo/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_ardu_motor/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_ardu/lib/python3.10/site-packages:/home/kmw/ros2_ws/build/ros_msg:/home/kmw/ros2_ws/build/ros_good:/home/kmw/ros2_ws/build/ros_cv:/home/kmw/ros2_ws/build/py_srv:/home/kmw/ros2_ws/build/cv_center:/home/kmw/ros2_ws/install/ros_good/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/ros_good/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_msg/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/ros_cv/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/cv_center/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/cv_msg/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/cv_center/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_cv/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/cv_msg/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_msg/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/py_srv/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/py_srv/lib/python3.12/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/kmw/miniconda3/lib/python3.12/site-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'CONDA_PREFIX': '/home/kmw/miniconda3/envs/ros2_py310', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/kmw/ros2_ws/install/cv_msg'}, 'shell': False}
+[14.943640] (cv_msg) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/cv_msg__rosidl_generator_c.dir/rosidl_generator_c/cv_msg/msg/detail/msg_servo__functions.c.o\x1b[0m\n'}
+[14.944166] (-) TimerEvent: {}
+[14.947651] (cv_msg) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/cv_msg__rosidl_generator_c.dir/rosidl_generator_c/cv_msg/srv/detail/srv_good__functions.c.o\x1b[0m\n'}
+[14.953827] (cv_msg) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/cv_msg__rosidl_generator_c.dir/rosidl_generator_c/cv_msg/msg/detail/msg_center__functions.c.o\x1b[0m\n'}
+[14.964728] (cv_msg) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/cv_msg__rosidl_generator_c.dir/rosidl_generator_c/cv_msg/srv/detail/srv_motor__functions.c.o\x1b[0m\n'}
+[14.980296] (cv_msg) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/cv_msg__rosidl_generator_c.dir/rosidl_generator_c/cv_msg/srv/detail/srv_arduino__functions.c.o\x1b[0m\n'}
+[15.044307] (-) TimerEvent: {}
+[15.147067] (-) TimerEvent: {}
+[15.196647] (cv_msg) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/cv_msg__rosidl_generator_c.dir/rosidl_generator_c/cv_msg/srv/detail/srv_servo__functions.c.o\x1b[0m\n'}
+[15.247191] (-) TimerEvent: {}
+[15.327147] (cv_msg) StdoutLine: {'line': b'[ 16%] \x1b[32m\x1b[1mLinking C shared library libcv_msg__rosidl_generator_c.so\x1b[0m\n'}
+[15.347313] (-) TimerEvent: {}
+[15.403406] (cv_msg) StdoutLine: {'line': b'[ 16%] Built target cv_msg__rosidl_generator_c\n'}
+[15.429420] (cv_msg) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[15.429752] (cv_msg) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[15.429972] (cv_msg) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[15.451078] (-) TimerEvent: {}
+[15.551831] (-) TimerEvent: {}
+[15.652482] (-) TimerEvent: {}
+[15.753172] (-) TimerEvent: {}
+[15.853803] (-) TimerEvent: {}
+[15.954484] (-) TimerEvent: {}
+[16.015897] (ros_servo) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/ros_servo', 'build', '--build-base', '/home/kmw/ros2_ws/src/build/ros_servo/build', 'install', '--record', '/home/kmw/ros2_ws/src/build/ros_servo/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/kmw/ros2_ws/src/ros_servo', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(ros2_py310)', 'USER': 'kmw', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/kmw/ros2_ws/install/cv_msg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kmw', 'CONDA_SHLVL': '2', 'OLDPWD': '/home/kmw/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '1478', 'SYSTEMD_EXEC_PID': '1818', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '7292', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kmw/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kmw', 'JOURNAL_STREAM': '8:13024', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kmw', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/kmw/gems/bin:/home/kmw/gems/bin:/home/kmw/miniconda3/envs/ros2_py310/bin:/home/kmw/miniconda3/condabin:/home/kmw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kmw:@/tmp/.ICE-unix/1623,unix/kmw:/tmp/.ICE-unix/1623', 'INVOCATION_ID': '06e6c9a8ea1943cca123643d39363342', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'CONDA_PREFIX_1': '/home/kmw/miniconda3', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1JI2U2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kmw/ros2_ws/install/ros_servo:/home/kmw/ros2_ws/install/ros_ardu_motor:/home/kmw/ros2_ws/install/ros_ardu:/home/kmw/ros2_ws/install/ros_good:/home/kmw/ros2_ws/install/cv_center:/home/kmw/ros2_ws/install/ros_cv:/home/kmw/ros2_ws/install/cv_msg:/home/kmw/ros2_ws/install/ros_msg:/home/kmw/ros2_ws/install/py_srv:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/kmw/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:a0e78e1a-eee0-4d31-83f8-072ba7cf2e7c', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GEM_HOME': '/home/kmw/gems', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'ros2_py310', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kmw/ros2_ws/src/build/ros_servo', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/kmw/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kmw/ros2_ws/src/build/ros_servo/prefix_override:/home/kmw/miniconda3/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/ros2_ws/src/install/ros_servo/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_servo/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_ardu_motor/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_ardu/lib/python3.10/site-packages:/home/kmw/ros2_ws/build/ros_msg:/home/kmw/ros2_ws/build/ros_good:/home/kmw/ros2_ws/build/ros_cv:/home/kmw/ros2_ws/build/py_srv:/home/kmw/ros2_ws/build/cv_center:/home/kmw/ros2_ws/install/ros_good/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/ros_good/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_msg/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/ros_cv/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/cv_center/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/cv_msg/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/cv_center/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_cv/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/cv_msg/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_msg/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/py_srv/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/py_srv/lib/python3.12/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/kmw/miniconda3/lib/python3.12/site-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'CONDA_PREFIX': '/home/kmw/miniconda3/envs/ros2_py310', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/kmw/ros2_ws/install/cv_msg'}, 'shell': False}
+[16.055348] (-) TimerEvent: {}
+[16.064724] (ros_msg) StdoutLine: {'line': b'running egg_info\n'}
+[16.066798] (ros_msg) StdoutLine: {'line': b'creating ../build/ros_msg/ros_msg.egg-info\n'}
+[16.147872] (ros_msg) StdoutLine: {'line': b'writing ../build/ros_msg/ros_msg.egg-info/PKG-INFO\n'}
+[16.150260] (ros_msg) StdoutLine: {'line': b'writing dependency_links to ../build/ros_msg/ros_msg.egg-info/dependency_links.txt\n'}
+[16.151497] (ros_msg) StdoutLine: {'line': b'writing entry points to ../build/ros_msg/ros_msg.egg-info/entry_points.txt\n'}
+[16.152846] (ros_msg) StdoutLine: {'line': b'writing requirements to ../build/ros_msg/ros_msg.egg-info/requires.txt\n'}
+[16.153689] (ros_msg) StdoutLine: {'line': b'writing top-level names to ../build/ros_msg/ros_msg.egg-info/top_level.txt\n'}
+[16.155048] (ros_msg) StdoutLine: {'line': b"writing manifest file '../build/ros_msg/ros_msg.egg-info/SOURCES.txt'\n"}
+[16.155339] (-) TimerEvent: {}
+[16.257224] (-) TimerEvent: {}
+[16.283393] (cv_msg) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/cv_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cv_msg/srv/srv_good__type_support.cpp.o\x1b[0m\n'}
+[16.298643] (cv_msg) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/cv_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cv_msg/msg/msg_servo__type_support.cpp.o\x1b[0m\n'}
+[16.311090] (cv_msg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/cv_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cv_msg/msg/msg_center__type_support.cpp.o\x1b[0m\n'}
+[16.333137] (ros_msg) StdoutLine: {'line': b"reading manifest file '../build/ros_msg/ros_msg.egg-info/SOURCES.txt'\n"}
+[16.338178] (ros_msg) StdoutLine: {'line': b"writing manifest file '../build/ros_msg/ros_msg.egg-info/SOURCES.txt'\n"}
+[16.338527] (ros_msg) StdoutLine: {'line': b'running build\n'}
+[16.338750] (ros_msg) StdoutLine: {'line': b'running build_py\n'}
+[16.338958] (ros_msg) StdoutLine: {'line': b'creating /home/kmw/ros2_ws/src/build/ros_msg/build/lib/ros_msg\n'}
+[16.339964] (ros_msg) StdoutLine: {'line': b'copying ros_msg/pub.py -> /home/kmw/ros2_ws/src/build/ros_msg/build/lib/ros_msg\n'}
+[16.340304] (ros_msg) StdoutLine: {'line': b'copying ros_msg/sub.py -> /home/kmw/ros2_ws/src/build/ros_msg/build/lib/ros_msg\n'}
+[16.341229] (ros_msg) StdoutLine: {'line': b'copying ros_msg/__init__.py -> /home/kmw/ros2_ws/src/build/ros_msg/build/lib/ros_msg\n'}
+[16.343267] (ros_msg) StdoutLine: {'line': b'running install\n'}
+[16.357348] (-) TimerEvent: {}
+[16.362441] (ros_msg) StdoutLine: {'line': b'running install_lib\n'}
+[16.447461] (ros_msg) StdoutLine: {'line': b'creating /home/kmw/ros2_ws/src/install/ros_msg/lib/python3.10/site-packages/ros_msg\n'}
+[16.447929] (ros_msg) StdoutLine: {'line': b'copying /home/kmw/ros2_ws/src/build/ros_msg/build/lib/ros_msg/pub.py -> /home/kmw/ros2_ws/src/install/ros_msg/lib/python3.10/site-packages/ros_msg\n'}
+[16.448767] (ros_msg) StdoutLine: {'line': b'copying /home/kmw/ros2_ws/src/build/ros_msg/build/lib/ros_msg/sub.py -> /home/kmw/ros2_ws/src/install/ros_msg/lib/python3.10/site-packages/ros_msg\n'}
+[16.450058] (ros_msg) StdoutLine: {'line': b'copying /home/kmw/ros2_ws/src/build/ros_msg/build/lib/ros_msg/__init__.py -> /home/kmw/ros2_ws/src/install/ros_msg/lib/python3.10/site-packages/ros_msg\n'}
+[16.454048] (ros_msg) StdoutLine: {'line': b'byte-compiling /home/kmw/ros2_ws/src/install/ros_msg/lib/python3.10/site-packages/ros_msg/pub.py to pub.cpython-310.pyc\n'}
+[16.454387] (ros_msg) StdoutLine: {'line': b'byte-compiling /home/kmw/ros2_ws/src/install/ros_msg/lib/python3.10/site-packages/ros_msg/sub.py to sub.cpython-310.pyc\n'}
+[16.454757] (ros_msg) StdoutLine: {'line': b'byte-compiling /home/kmw/ros2_ws/src/install/ros_msg/lib/python3.10/site-packages/ros_msg/__init__.py to __init__.cpython-310.pyc\n'}
+[16.456019] (ros_msg) StdoutLine: {'line': b'running install_data\n'}
+[16.456359] (ros_msg) StdoutLine: {'line': b'creating /home/kmw/ros2_ws/src/install/ros_msg/share/ament_index/resource_index/packages\n'}
+[16.460274] (ros_msg) StdoutLine: {'line': b'copying resource/ros_msg -> /home/kmw/ros2_ws/src/install/ros_msg/share/ament_index/resource_index/packages\n'}
+[16.460577] (-) TimerEvent: {}
+[16.460843] (ros_msg) StdoutLine: {'line': b'copying package.xml -> /home/kmw/ros2_ws/src/install/ros_msg/share/ros_msg\n'}
+[16.464067] (ros_msg) StdoutLine: {'line': b'running install_egg_info\n'}
+[16.548085] (ros_msg) StdoutLine: {'line': b'Copying ../build/ros_msg/ros_msg.egg-info to /home/kmw/ros2_ws/src/install/ros_msg/lib/python3.10/site-packages/ros_msg-0.0.0-py3.10.egg-info\n'}
+[16.551369] (ros_msg) StdoutLine: {'line': b'running install_scripts\n'}
+[16.560712] (-) TimerEvent: {}
+[16.661343] (-) TimerEvent: {}
+[16.761886] (-) TimerEvent: {}
+[16.866419] (-) TimerEvent: {}
+[16.967068] (-) TimerEvent: {}
+[17.067683] (-) TimerEvent: {}
+[17.168419] (-) TimerEvent: {}
+[17.177202] (cv_msg) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/cv_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cv_msg/msg/detail/msg_servo__type_support.cpp.o\x1b[0m\n'}
+[17.247893] (cv_msg) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/cv_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/cv_msg/msg/msg_servo__type_support.cpp.o\x1b[0m\n'}
+[17.268590] (-) TimerEvent: {}
+[17.372413] (-) TimerEvent: {}
+[17.477249] (-) TimerEvent: {}
+[17.482401] (cv_msg) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/cv_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/cv_msg/msg/msg_center__type_support.cpp.o\x1b[0m\n'}
+[17.577416] (-) TimerEvent: {}
+[17.600088] (cv_msg) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/cv_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/cv_msg/srv/srv_good__type_support.cpp.o\x1b[0m\n'}
+[17.601120] (ros_msg) StdoutLine: {'line': b'Installing listener script to /home/kmw/ros2_ws/src/install/ros_msg/lib/ros_msg\n'}
+[17.601844] (ros_msg) StdoutLine: {'line': b'Installing talker script to /home/kmw/ros2_ws/src/install/ros_msg/lib/ros_msg\n'}
+[17.604068] (ros_msg) StdoutLine: {'line': b"writing list of installed files to '/home/kmw/ros2_ws/src/build/ros_msg/install.log'\n"}
+[17.669935] (cv_msg) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/cv_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cv_msg/msg/detail/dds_fastrtps/msg_servo__type_support.cpp.o\x1b[0m\n'}
+[17.683157] (-) TimerEvent: {}
+[17.776958] (ros_msg) CommandEnded: {'returncode': 0}
+[17.784329] (-) TimerEvent: {}
+[17.827502] (cv_msg) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/cv_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cv_msg/msg/detail/dds_fastrtps/msg_center__type_support.cpp.o\x1b[0m\n'}
+[17.839584] (ros_msg) JobEnded: {'identifier': 'ros_msg', 'rc': 0}
+[17.842421] (cv_msg) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/cv_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/cv_msg/srv/srv_arduino__type_support.cpp.o\x1b[0m\n'}
+[17.882767] (cv_msg) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/cv_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cv_msg/srv/detail/dds_fastrtps/srv_good__type_support.cpp.o\x1b[0m\n'}
+[17.886094] (-) TimerEvent: {}
+[17.906883] (cv_msg) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/cv_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cv_msg/srv/srv_arduino__type_support.cpp.o\x1b[0m\n'}
+[17.959766] (ros_servo) StdoutLine: {'line': b'running egg_info\n'}
+[17.962575] (ros_servo) StdoutLine: {'line': b'creating ../build/ros_servo/ros_servo.egg-info\n'}
+[17.972084] (cv_msg) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/cv_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/cv_msg/srv/srv_motor__type_support.cpp.o\x1b[0m\n'}
+[17.986230] (-) TimerEvent: {}
+[18.010500] (cv_msg) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/cv_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cv_msg/msg/detail/msg_servo__type_support_c.cpp.o\x1b[0m\n'}
+[18.063209] (ros_servo) StdoutLine: {'line': b'writing ../build/ros_servo/ros_servo.egg-info/PKG-INFO\n'}
+[18.067737] (ros_servo) StdoutLine: {'line': b'writing dependency_links to ../build/ros_servo/ros_servo.egg-info/dependency_links.txt\n'}
+[18.071054] (ros_servo) StdoutLine: {'line': b'writing entry points to ../build/ros_servo/ros_servo.egg-info/entry_points.txt\n'}
+[18.071904] (cv_msg) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/cv_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/cv_msg/srv/srv_servo__type_support.cpp.o\x1b[0m\n'}
+[18.072322] (ros_servo) StdoutLine: {'line': b'writing requirements to ../build/ros_servo/ros_servo.egg-info/requires.txt\n'}
+[18.075627] (ros_servo) StdoutLine: {'line': b'writing top-level names to ../build/ros_servo/ros_servo.egg-info/top_level.txt\n'}
+[18.075998] (ros_servo) StdoutLine: {'line': b"writing manifest file '../build/ros_servo/ros_servo.egg-info/SOURCES.txt'\n"}
+[18.090068] (-) TimerEvent: {}
+[18.174530] (cv_msg) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/cv_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cv_msg/msg/detail/msg_servo__type_support.c.o\x1b[0m\n'}
+[18.180666] (cv_msg) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libcv_msg__rosidl_typesupport_c.so\x1b[0m\n'}
+[18.190228] (-) TimerEvent: {}
+[18.290752] (-) TimerEvent: {}
+[18.311221] (ros_servo) StdoutLine: {'line': b"reading manifest file '../build/ros_servo/ros_servo.egg-info/SOURCES.txt'\n"}
+[18.314733] (ros_servo) StdoutLine: {'line': b"writing manifest file '../build/ros_servo/ros_servo.egg-info/SOURCES.txt'\n"}
+[18.317145] (ros_servo) StdoutLine: {'line': b'running build\n'}
+[18.318125] (ros_servo) StdoutLine: {'line': b'running build_py\n'}
+[18.321056] (ros_servo) StdoutLine: {'line': b'creating /home/kmw/ros2_ws/src/build/ros_servo/build/lib/ros_servo\n'}
+[18.323894] (ros_servo) StdoutLine: {'line': b'copying ros_servo/servo_sub.py -> /home/kmw/ros2_ws/src/build/ros_servo/build/lib/ros_servo\n'}
+[18.328697] (ros_servo) StdoutLine: {'line': b'copying ros_servo/__init__.py -> /home/kmw/ros2_ws/src/build/ros_servo/build/lib/ros_servo\n'}
+[18.333120] (ros_servo) StdoutLine: {'line': b'copying ros_servo/servo_pub.py -> /home/kmw/ros2_ws/src/build/ros_servo/build/lib/ros_servo\n'}
+[18.334838] (ros_servo) StdoutLine: {'line': b'running install\n'}
+[18.339096] (cv_msg) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/cv_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cv_msg/msg/detail/msg_center__type_support.c.o\x1b[0m\n'}
+[18.379817] (ros_servo) StdoutLine: {'line': b'running install_lib\n'}
+[18.392106] (-) TimerEvent: {}
+[18.462802] (cv_msg) StdoutLine: {'line': b'[ 46%] Built target cv_msg__rosidl_typesupport_c\n'}
+[18.494171] (-) TimerEvent: {}
+[18.531563] (cv_msg) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/cv_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cv_msg/srv/detail/srv_good__type_support.c.o\x1b[0m\n'}
+[18.555661] (ros_servo) StdoutLine: {'line': b'creating /home/kmw/ros2_ws/src/install/ros_servo/lib/python3.10/site-packages/ros_servo\n'}
+[18.556515] (ros_servo) StdoutLine: {'line': b'copying /home/kmw/ros2_ws/src/build/ros_servo/build/lib/ros_servo/servo_sub.py -> /home/kmw/ros2_ws/src/install/ros_servo/lib/python3.10/site-packages/ros_servo\n'}
+[18.558238] (ros_servo) StdoutLine: {'line': b'copying /home/kmw/ros2_ws/src/build/ros_servo/build/lib/ros_servo/__init__.py -> /home/kmw/ros2_ws/src/install/ros_servo/lib/python3.10/site-packages/ros_servo\n'}
+[18.559953] (ros_servo) StdoutLine: {'line': b'copying /home/kmw/ros2_ws/src/build/ros_servo/build/lib/ros_servo/servo_pub.py -> /home/kmw/ros2_ws/src/install/ros_servo/lib/python3.10/site-packages/ros_servo\n'}
+[18.564614] (ros_servo) StdoutLine: {'line': b'byte-compiling /home/kmw/ros2_ws/src/install/ros_servo/lib/python3.10/site-packages/ros_servo/servo_sub.py to servo_sub.cpython-310.pyc\n'}
+[18.568409] (ros_servo) StdoutLine: {'line': b'byte-compiling /home/kmw/ros2_ws/src/install/ros_servo/lib/python3.10/site-packages/ros_servo/__init__.py to __init__.cpython-310.pyc\n'}
+[18.570489] (ros_servo) StdoutLine: {'line': b'byte-compiling /home/kmw/ros2_ws/src/install/ros_servo/lib/python3.10/site-packages/ros_servo/servo_pub.py to servo_pub.cpython-310.pyc\n'}
+[18.573746] (ros_servo) StdoutLine: {'line': b'running install_data\n'}
+[18.576370] (ros_servo) StdoutLine: {'line': b'creating /home/kmw/ros2_ws/src/install/ros_servo/share/ament_index/resource_index/packages\n'}
+[18.580068] (ros_servo) StdoutLine: {'line': b'copying resource/ros_servo -> /home/kmw/ros2_ws/src/install/ros_servo/share/ament_index/resource_index/packages\n'}
+[18.582780] (ros_servo) StdoutLine: {'line': b'copying package.xml -> /home/kmw/ros2_ws/src/install/ros_servo/share/ros_servo\n'}
+[18.584455] (ros_servo) StdoutLine: {'line': b'running install_egg_info\n'}
+[18.597769] (-) TimerEvent: {}
+[18.617296] (cv_msg) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/cv_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cv_msg/msg/detail/msg_center__type_support_c.cpp.o\x1b[0m\n'}
+[18.700115] (-) TimerEvent: {}
+[18.785094] (ros_servo) StdoutLine: {'line': b'Copying ../build/ros_servo/ros_servo.egg-info to /home/kmw/ros2_ws/src/install/ros_servo/lib/python3.10/site-packages/ros_servo-0.0.0-py3.10.egg-info\n'}
+[18.791429] (ros_servo) StdoutLine: {'line': b'running install_scripts\n'}
+[18.802138] (-) TimerEvent: {}
+[18.870474] (cv_msg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/cv_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cv_msg/srv/detail/srv_arduino__type_support.c.o\x1b[0m\n'}
+[18.902306] (-) TimerEvent: {}
+[19.004111] (-) TimerEvent: {}
+[19.021596] (cv_msg) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/cv_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cv_msg/srv/detail/srv_motor__type_support.c.o\x1b[0m\n'}
+[19.105112] (-) TimerEvent: {}
+[19.205868] (-) TimerEvent: {}
+[19.241731] (cv_msg) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/cv_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cv_msg/msg/detail/msg_center__type_support.cpp.o\x1b[0m\n'}
+[19.257496] (cv_msg) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/cv_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cv_msg/srv/detail/srv_servo__type_support.c.o\x1b[0m\n'}
+[19.307955] (-) TimerEvent: {}
+[19.408743] (-) TimerEvent: {}
+[19.426425] (cv_msg) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/cv_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cv_msg/srv/srv_motor__type_support.cpp.o\x1b[0m\n'}
+[19.511021] (-) TimerEvent: {}
+[19.611768] (-) TimerEvent: {}
+[19.659275] (cv_msg) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking C shared library libcv_msg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[19.714146] (-) TimerEvent: {}
+[19.818117] (-) TimerEvent: {}
+[19.929121] (-) TimerEvent: {}
+[19.977177] (cv_msg) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/cv_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cv_msg/srv/detail/srv_good__type_support.cpp.o\x1b[0m\n'}
+[20.036121] (-) TimerEvent: {}
+[20.082096] (cv_msg) StdoutLine: {'line': b'[ 59%] Built target cv_msg__rosidl_typesupport_introspection_c\n'}
+[20.136331] (-) TimerEvent: {}
+[20.188416] (cv_msg) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/cv_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cv_msg/srv/detail/dds_fastrtps/srv_arduino__type_support.cpp.o\x1b[0m\n'}
+[20.247300] (-) TimerEvent: {}
+[20.290372] (cv_msg) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/cv_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cv_msg/srv/detail/srv_arduino__type_support.cpp.o\x1b[0m\n'}
+[20.347594] (-) TimerEvent: {}
+[20.450108] (-) TimerEvent: {}
+[20.554129] (-) TimerEvent: {}
+[20.610625] (ros_servo) StdoutLine: {'line': b'Installing servo_pub script to /home/kmw/ros2_ws/src/install/ros_servo/lib/ros_servo\n'}
+[20.613104] (ros_servo) StdoutLine: {'line': b'Installing servo_sub script to /home/kmw/ros2_ws/src/install/ros_servo/lib/ros_servo\n'}
+[20.618243] (ros_servo) StdoutLine: {'line': b"writing list of installed files to '/home/kmw/ros2_ws/src/build/ros_servo/install.log'\n"}
+[20.655164] (-) TimerEvent: {}
+[20.758633] (-) TimerEvent: {}
+[20.826254] (ros_servo) CommandEnded: {'returncode': 0}
+[20.852692] (cv_msg) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/cv_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cv_msg/srv/detail/dds_fastrtps/srv_motor__type_support.cpp.o\x1b[0m\n'}
+[20.861927] (-) TimerEvent: {}
+[20.876420] (ros_servo) JobEnded: {'identifier': 'ros_servo', 'rc': 0}
+[20.910607] (cv_msg) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/cv_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cv_msg/srv/srv_servo__type_support.cpp.o\x1b[0m\n'}
+[20.964188] (-) TimerEvent: {}
+[21.065537] (-) TimerEvent: {}
+[21.169525] (-) TimerEvent: {}
+[21.275110] (-) TimerEvent: {}
+[21.384110] (-) TimerEvent: {}
+[21.493539] (cv_msg) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/cv_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cv_msg/srv/detail/srv_good__type_support_c.cpp.o\x1b[0m\n'}
+[21.494115] (-) TimerEvent: {}
+[21.586718] (cv_msg) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/cv_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cv_msg/srv/detail/srv_motor__type_support.cpp.o\x1b[0m\n'}
+[21.594342] (-) TimerEvent: {}
+[21.707138] (-) TimerEvent: {}
+[21.809111] (-) TimerEvent: {}
+[21.910148] (-) TimerEvent: {}
+[22.010896] (-) TimerEvent: {}
+[22.114523] (-) TimerEvent: {}
+[22.215495] (-) TimerEvent: {}
+[22.278895] (cv_msg) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/cv_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cv_msg/srv/detail/srv_arduino__type_support_c.cpp.o\x1b[0m\n'}
+[22.319180] (-) TimerEvent: {}
+[22.420037] (-) TimerEvent: {}
+[22.511420] (cv_msg) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/cv_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cv_msg/srv/detail/srv_motor__type_support_c.cpp.o\x1b[0m\n'}
+[22.520204] (-) TimerEvent: {}
+[22.620966] (-) TimerEvent: {}
+[22.728115] (-) TimerEvent: {}
+[22.768332] (cv_msg) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libcv_msg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[22.828349] (-) TimerEvent: {}
+[22.930486] (-) TimerEvent: {}
+[23.031366] (-) TimerEvent: {}
+[23.095136] (cv_msg) StdoutLine: {'line': b'[ 71%] Built target cv_msg__rosidl_typesupport_cpp\n'}
+[23.135122] (-) TimerEvent: {}
+[23.171296] (cv_msg) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/cv_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cv_msg/srv/detail/srv_servo__type_support_c.cpp.o\x1b[0m\n'}
+[23.238122] (-) TimerEvent: {}
+[23.252578] (cv_msg) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/cv_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cv_msg/srv/detail/dds_fastrtps/srv_servo__type_support.cpp.o\x1b[0m\n'}
+[23.273978] (cv_msg) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/cv_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cv_msg/srv/detail/srv_servo__type_support.cpp.o\x1b[0m\n'}
+[23.338271] (-) TimerEvent: {}
+[23.438900] (-) TimerEvent: {}
+[23.539461] (-) TimerEvent: {}
+[23.640048] (-) TimerEvent: {}
+[23.740588] (-) TimerEvent: {}
+[23.841113] (-) TimerEvent: {}
+[23.941587] (-) TimerEvent: {}
+[24.042074] (-) TimerEvent: {}
+[24.130168] (cv_msg) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libcv_msg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[24.142194] (-) TimerEvent: {}
+[24.154636] (cv_msg) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libcv_msg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[24.242414] (-) TimerEvent: {}
+[24.252774] (cv_msg) StdoutLine: {'line': b'[ 78%] Built target cv_msg__rosidl_typesupport_introspection_cpp\n'}
+[24.324647] (cv_msg) StdoutLine: {'line': b'[ 78%] Built target cv_msg__rosidl_typesupport_fastrtps_c\n'}
+[24.342630] (-) TimerEvent: {}
+[24.360561] (cv_msg) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX shared library libcv_msg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[24.442799] (-) TimerEvent: {}
+[24.517343] (cv_msg) StdoutLine: {'line': b'[ 80%] Built target cv_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[24.542955] (-) TimerEvent: {}
+[24.553023] (cv_msg) StdoutLine: {'line': b'[ 80%] Built target cv_msg\n'}
+[24.586439] (cv_msg) StdoutLine: {'line': b'[ 81%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[24.643104] (-) TimerEvent: {}
+[24.743511] (-) TimerEvent: {}
+[24.843880] (-) TimerEvent: {}
+[24.944261] (-) TimerEvent: {}
+[25.044624] (-) TimerEvent: {}
+[25.145032] (-) TimerEvent: {}
+[25.245404] (-) TimerEvent: {}
+[25.345793] (-) TimerEvent: {}
+[25.446157] (-) TimerEvent: {}
+[25.546544] (-) TimerEvent: {}
+[25.646911] (-) TimerEvent: {}
+[25.747322] (-) TimerEvent: {}
+[25.847683] (-) TimerEvent: {}
+[25.948069] (-) TimerEvent: {}
+[26.048434] (-) TimerEvent: {}
+[26.148817] (-) TimerEvent: {}
+[26.249205] (-) TimerEvent: {}
+[26.349596] (-) TimerEvent: {}
+[26.358974] (cv_msg) StdoutLine: {'line': b'[ 81%] Built target cv_msg__py\n'}
+[26.404554] (cv_msg) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/cv_msg__rosidl_generator_py.dir/rosidl_generator_py/cv_msg/msg/_msg_servo_s.c.o\x1b[0m\n'}
+[26.406116] (cv_msg) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/cv_msg__rosidl_generator_py.dir/rosidl_generator_py/cv_msg/srv/_srv_motor_s.c.o\x1b[0m\n'}
+[26.410747] (cv_msg) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/cv_msg__rosidl_generator_py.dir/rosidl_generator_py/cv_msg/srv/_srv_good_s.c.o\x1b[0m\n'}
+[26.411716] (cv_msg) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/cv_msg__rosidl_generator_py.dir/rosidl_generator_py/cv_msg/msg/_msg_center_s.c.o\x1b[0m\n'}
+[26.412172] (cv_msg) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/cv_msg__rosidl_generator_py.dir/rosidl_generator_py/cv_msg/srv/_srv_arduino_s.c.o\x1b[0m\n'}
+[26.412698] (cv_msg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/cv_msg__rosidl_generator_py.dir/rosidl_generator_py/cv_msg/srv/_srv_servo_s.c.o\x1b[0m\n'}
+[26.449736] (-) TimerEvent: {}
+[26.550223] (-) TimerEvent: {}
+[26.650693] (-) TimerEvent: {}
+[26.725114] (cv_msg) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/cv_msg/libcv_msg__rosidl_generator_py.so\x1b[0m\n'}
+[26.750856] (-) TimerEvent: {}
+[26.801550] (cv_msg) StdoutLine: {'line': b'[ 91%] Built target cv_msg__rosidl_generator_py\n'}
+[26.843392] (cv_msg) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/cv_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/cv_msg/_cv_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[26.843771] (cv_msg) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/cv_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/cv_msg/_cv_msg_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[26.847534] (cv_msg) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/cv_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/cv_msg/_cv_msg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[26.851018] (-) TimerEvent: {}
+[26.951507] (-) TimerEvent: {}
+[27.052009] (-) TimerEvent: {}
+[27.101242] (cv_msg) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/cv_msg/cv_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[27.102114] (cv_msg) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/cv_msg/cv_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[27.107422] (cv_msg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/cv_msg/cv_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[27.152336] (-) TimerEvent: {}
+[27.171535] (cv_msg) StdoutLine: {'line': b'[100%] Built target cv_msg__rosidl_typesupport_introspection_c__pyext\n'}
+[27.172112] (cv_msg) StdoutLine: {'line': b'[100%] Built target cv_msg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[27.179654] (cv_msg) StdoutLine: {'line': b'[100%] Built target cv_msg__rosidl_typesupport_c__pyext\n'}
+[27.208130] (cv_msg) CommandEnded: {'returncode': 0}
+[27.252460] (-) TimerEvent: {}
+[27.352869] (-) TimerEvent: {}
+[27.453371] (-) TimerEvent: {}
+[27.553953] (-) TimerEvent: {}
+[27.636600] (cv_msg) JobProgress: {'identifier': 'cv_msg', 'progress': 'install'}
+[27.654169] (-) TimerEvent: {}
+[27.667405] (cv_msg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kmw/ros2_ws/src/build/cv_msg'], 'cwd': '/home/kmw/ros2_ws/src/build/cv_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(ros2_py310)'), ('USER', 'kmw'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kmw/ros2_ws/install/cv_msg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kmw'), ('CONDA_SHLVL', '2'), ('OLDPWD', '/home/kmw/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1478'), ('SYSTEMD_EXEC_PID', '1818'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7292'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kmw/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kmw'), ('JOURNAL_STREAM', '8:13024'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kmw'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/kmw/gems/bin:/home/kmw/gems/bin:/home/kmw/miniconda3/envs/ros2_py310/bin:/home/kmw/miniconda3/condabin:/home/kmw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kmw:@/tmp/.ICE-unix/1623,unix/kmw:/tmp/.ICE-unix/1623'), ('INVOCATION_ID', '06e6c9a8ea1943cca123643d39363342'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('CONDA_PREFIX_1', '/home/kmw/miniconda3'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1JI2U2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kmw/ros2_ws/install/ros_servo:/home/kmw/ros2_ws/install/ros_ardu_motor:/home/kmw/ros2_ws/install/ros_ardu:/home/kmw/ros2_ws/install/ros_good:/home/kmw/ros2_ws/install/cv_center:/home/kmw/ros2_ws/install/ros_cv:/home/kmw/ros2_ws/install/cv_msg:/home/kmw/ros2_ws/install/ros_msg:/home/kmw/ros2_ws/install/py_srv:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/kmw/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:a0e78e1a-eee0-4d31-83f8-072ba7cf2e7c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GEM_HOME', '/home/kmw/gems'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'ros2_py310'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kmw/ros2_ws/src/build/cv_msg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/kmw/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kmw/ros2_ws/install/ros_servo/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_ardu_motor/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_ardu/lib/python3.10/site-packages:/home/kmw/ros2_ws/build/ros_msg:/home/kmw/ros2_ws/build/ros_good:/home/kmw/ros2_ws/build/ros_cv:/home/kmw/ros2_ws/build/py_srv:/home/kmw/ros2_ws/build/cv_center:/home/kmw/ros2_ws/install/ros_good/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/ros_good/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_msg/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/ros_cv/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/cv_center/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/cv_msg/lib/python3.12/site-packages:/home/kmw/ros2_ws/install/cv_center/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_cv/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/cv_msg/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/ros_msg/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/py_srv/lib/python3.10/site-packages:/home/kmw/ros2_ws/install/py_srv/lib/python3.12/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/kmw/miniconda3/lib/python3.12/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('CONDA_PREFIX', '/home/kmw/miniconda3/envs/ros2_py310'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kmw/ros2_ws/install/cv_msg:/home/kmw/ros2_ws/install/ros_servo:/home/kmw/ros2_ws/install/ros_ardu_motor:/home/kmw/ros2_ws/install/ros_ardu:/home/kmw/ros2_ws/install/ros_good:/home/kmw/ros2_ws/install/cv_center:/home/kmw/ros2_ws/install/ros_cv:/home/kmw/ros2_ws/install/ros_msg:/home/kmw/ros2_ws/install/py_srv:/opt/ros/humble')]), 'shell': False}
+[27.692040] (cv_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[27.692736] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/ament_index/resource_index/rosidl_interfaces/cv_msg\n'}
+[27.693611] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg\n'}
+[27.694592] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv\n'}
+[27.695214] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/srv_servo.h\n'}
+[27.695596] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail\n'}
+[27.696144] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_servo__functions.c\n'}
+[27.696653] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_good__functions.h\n'}
+[27.696908] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_arduino__struct.h\n'}
+[27.697407] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_good__type_support.h\n'}
+[27.697787] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_motor__functions.c\n'}
+[27.698189] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_motor__type_support.h\n'}
+[27.698619] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_motor__functions.h\n'}
+[27.699021] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_arduino__functions.h\n'}
+[27.699413] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_arduino__functions.c\n'}
+[27.699687] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_motor__struct.h\n'}
+[27.700079] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_servo__functions.h\n'}
+[27.700522] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_servo__struct.h\n'}
+[27.700800] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_servo__type_support.h\n'}
+[27.701105] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_good__functions.c\n'}
+[27.701537] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_arduino__type_support.h\n'}
+[27.701818] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_good__struct.h\n'}
+[27.702123] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/srv_motor.h\n'}
+[27.702562] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/srv_arduino.h\n'}
+[27.702832] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/srv_good.h\n'}
+[27.703238] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/msg\n'}
+[27.703614] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/msg/msg_servo.h\n'}
+[27.704023] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/msg/detail\n'}
+[27.704333] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/msg/detail/msg_center__type_support.h\n'}
+[27.704604] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/msg/detail/msg_servo__functions.c\n'}
+[27.704842] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/msg/detail/msg_center__functions.c\n'}
+[27.705228] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/msg/detail/msg_center__struct.h\n'}
+[27.705539] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/msg/detail/msg_servo__struct.h\n'}
+[27.705720] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/msg/detail/msg_servo__functions.h\n'}
+[27.705944] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/msg/detail/msg_center__functions.h\n'}
+[27.706295] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/msg/detail/msg_servo__type_support.h\n'}
+[27.706545] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/msg/msg_center.h\n'}
+[27.706783] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/msg/rosidl_generator_c__visibility_control.h\n'}
+[27.707039] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/environment/library_path.sh\n'}
+[27.707392] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/environment/library_path.dsv\n'}
+[27.707573] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/lib/libcv_msg__rosidl_generator_c.so\n'}
+[27.708385] (cv_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/kmw/ros2_ws/src/install/cv_msg/lib/libcv_msg__rosidl_generator_c.so" to ""\n'}
+[27.708883] (cv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg\n'}
+[27.709352] (cv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv\n'}
+[27.709722] (cv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail\n'}
+[27.710094] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_good__rosidl_typesupport_fastrtps_c.h\n'}
+[27.710730] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_motor__rosidl_typesupport_fastrtps_c.h\n'}
+[27.710947] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_arduino__rosidl_typesupport_fastrtps_c.h\n'}
+[27.711397] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_servo__rosidl_typesupport_fastrtps_c.h\n'}
+[27.711719] (cv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/msg\n'}
+[27.711948] (cv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/msg/detail\n'}
+[27.712235] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/msg/detail/msg_servo__rosidl_typesupport_fastrtps_c.h\n'}
+[27.712537] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/msg/detail/msg_center__rosidl_typesupport_fastrtps_c.h\n'}
+[27.712843] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[27.713306] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/lib/libcv_msg__rosidl_typesupport_fastrtps_c.so\n'}
+[27.713807] (cv_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/kmw/ros2_ws/src/install/cv_msg/lib/libcv_msg__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[27.714180] (cv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg\n'}
+[27.714499] (cv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv\n'}
+[27.714952] (cv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail\n'}
+[27.715469] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_arduino__rosidl_typesupport_introspection_c.h\n'}
+[27.715705] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_motor__rosidl_typesupport_introspection_c.h\n'}
+[27.715893] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_servo__type_support.c\n'}
+[27.716265] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_arduino__type_support.c\n'}
+[27.716537] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_servo__rosidl_typesupport_introspection_c.h\n'}
+[27.716725] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_good__rosidl_typesupport_introspection_c.h\n'}
+[27.716911] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_good__type_support.c\n'}
+[27.717220] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_motor__type_support.c\n'}
+[27.717413] (cv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/msg\n'}
+[27.717596] (cv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/msg/detail\n'}
+[27.717779] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/msg/detail/msg_servo__type_support.c\n'}
+[27.717961] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/msg/detail/msg_center__rosidl_typesupport_introspection_c.h\n'}
+[27.718366] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/msg/detail/msg_servo__rosidl_typesupport_introspection_c.h\n'}
+[27.718662] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/msg/detail/msg_center__type_support.c\n'}
+[27.718932] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[27.719238] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/lib/libcv_msg__rosidl_typesupport_introspection_c.so\n'}
+[27.719614] (cv_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/kmw/ros2_ws/src/install/cv_msg/lib/libcv_msg__rosidl_typesupport_introspection_c.so" to ""\n'}
+[27.719958] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/lib/libcv_msg__rosidl_typesupport_c.so\n'}
+[27.720388] (cv_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/kmw/ros2_ws/src/install/cv_msg/lib/libcv_msg__rosidl_typesupport_c.so" to ""\n'}
+[27.720670] (cv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg\n'}
+[27.720945] (cv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv\n'}
+[27.721393] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/srv_servo.hpp\n'}
+[27.721676] (cv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail\n'}
+[27.721957] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_servo__traits.hpp\n'}
+[27.722269] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_arduino__struct.hpp\n'}
+[27.722553] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_motor__struct.hpp\n'}
+[27.722824] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_motor__builder.hpp\n'}
+[27.723252] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_servo__builder.hpp\n'}
+[27.723769] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_arduino__traits.hpp\n'}
+[27.723960] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_good__traits.hpp\n'}
+[27.724156] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_servo__struct.hpp\n'}
+[27.724317] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_good__builder.hpp\n'}
+[27.724468] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_good__struct.hpp\n'}
+[27.724667] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_arduino__builder.hpp\n'}
+[27.724909] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_motor__traits.hpp\n'}
+[27.725288] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/srv_arduino.hpp\n'}
+[27.725705] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/srv_good.hpp\n'}
+[27.725943] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/srv_motor.hpp\n'}
+[27.726428] (cv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/msg\n'}
+[27.726711] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/msg/msg_center.hpp\n'}
+[27.726926] (cv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/msg/detail\n'}
+[27.727407] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/msg/detail/msg_servo__traits.hpp\n'}
+[27.727782] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/msg/detail/msg_servo__struct.hpp\n'}
+[27.728353] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/msg/detail/msg_center__builder.hpp\n'}
+[27.728766] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/msg/detail/msg_center__traits.hpp\n'}
+[27.729134] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/msg/detail/msg_center__struct.hpp\n'}
+[27.729304] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/msg/detail/msg_servo__builder.hpp\n'}
+[27.729582] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/msg/msg_servo.hpp\n'}
+[27.729816] (cv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg\n'}
+[27.730005] (cv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv\n'}
+[27.730196] (cv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail\n'}
+[27.730365] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_good__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[27.730530] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_servo__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[27.730695] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/dds_fastrtps\n'}
+[27.730857] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_arduino__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[27.731048] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_motor__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[27.731237] (cv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/msg\n'}
+[27.731609] (cv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/msg/detail\n'}
+[27.732289] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/msg/detail/msg_center__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[27.732724] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/msg/detail/msg_servo__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[27.733003] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/msg/detail/dds_fastrtps\n'}
+[27.733284] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[27.733537] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/lib/libcv_msg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[27.733787] (cv_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/kmw/ros2_ws/src/install/cv_msg/lib/libcv_msg__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[27.734046] (cv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg\n'}
+[27.734392] (cv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv\n'}
+[27.734550] (cv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail\n'}
+[27.734704] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_motor__type_support.cpp\n'}
+[27.734859] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_good__rosidl_typesupport_introspection_cpp.hpp\n'}
+[27.735040] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_servo__rosidl_typesupport_introspection_cpp.hpp\n'}
+[27.735219] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_motor__rosidl_typesupport_introspection_cpp.hpp\n'}
+[27.735515] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_good__type_support.cpp\n'}
+[27.735669] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_servo__type_support.cpp\n'}
+[27.735822] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_arduino__rosidl_typesupport_introspection_cpp.hpp\n'}
+[27.736095] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/srv/detail/srv_arduino__type_support.cpp\n'}
+[27.736275] (cv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/msg\n'}
+[27.736426] (cv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/msg/detail\n'}
+[27.736577] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/msg/detail/msg_center__type_support.cpp\n'}
+[27.736731] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/msg/detail/msg_servo__type_support.cpp\n'}
+[27.736976] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/msg/detail/msg_servo__rosidl_typesupport_introspection_cpp.hpp\n'}
+[27.737338] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/include/cv_msg/cv_msg/msg/detail/msg_center__rosidl_typesupport_introspection_cpp.hpp\n'}
+[27.737583] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/lib/libcv_msg__rosidl_typesupport_introspection_cpp.so\n'}
+[27.737910] (cv_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/kmw/ros2_ws/src/install/cv_msg/lib/libcv_msg__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[27.738309] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/lib/libcv_msg__rosidl_typesupport_cpp.so\n'}
+[27.738902] (cv_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/kmw/ros2_ws/src/install/cv_msg/lib/libcv_msg__rosidl_typesupport_cpp.so" to ""\n'}
+[27.739306] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/environment/pythonpath.sh\n'}
+[27.739697] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/environment/pythonpath.dsv\n'}
+[27.740083] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/lib/python3.10/site-packages/cv_msg-0.0.0-py3.10.egg-info\n'}
+[27.740435] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/lib/python3.10/site-packages/cv_msg-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[27.740776] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/lib/python3.10/site-packages/cv_msg-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[27.741189] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/lib/python3.10/site-packages/cv_msg-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[27.741479] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/lib/python3.10/site-packages/cv_msg-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[27.741741] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/lib/python3.10/site-packages/cv_msg\n'}
+[27.742096] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/lib/python3.10/site-packages/cv_msg/cv_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[27.742475] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/lib/python3.10/site-packages/cv_msg/libcv_msg__rosidl_generator_py.so\n'}
+[27.742741] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/lib/python3.10/site-packages/cv_msg/cv_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[27.743079] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/lib/python3.10/site-packages/cv_msg/srv\n'}
+[27.743665] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/lib/python3.10/site-packages/cv_msg/srv/_srv_good_s.c\n'}
+[27.744215] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/lib/python3.10/site-packages/cv_msg/srv/_srv_arduino.py\n'}
+[27.744976] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/lib/python3.10/site-packages/cv_msg/srv/_srv_motor.py\n'}
+[27.745679] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/lib/python3.10/site-packages/cv_msg/srv/_srv_arduino_s.c\n'}
+[27.746023] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/lib/python3.10/site-packages/cv_msg/srv/_srv_motor_s.c\n'}
+[27.746284] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/lib/python3.10/site-packages/cv_msg/srv/_srv_good.py\n'}
+[27.746685] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/lib/python3.10/site-packages/cv_msg/srv/_srv_servo.py\n'}
+[27.747393] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/lib/python3.10/site-packages/cv_msg/srv/__init__.py\n'}
+[27.747905] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/lib/python3.10/site-packages/cv_msg/srv/_srv_servo_s.c\n'}
+[27.748473] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/lib/python3.10/site-packages/cv_msg/cv_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[27.748929] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/lib/python3.10/site-packages/cv_msg/__init__.py\n'}
+[27.749379] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/lib/python3.10/site-packages/cv_msg/_cv_msg_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[27.749793] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/lib/python3.10/site-packages/cv_msg/_cv_msg_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[27.750272] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/lib/python3.10/site-packages/cv_msg/msg\n'}
+[27.750642] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/lib/python3.10/site-packages/cv_msg/msg/_msg_center_s.c\n'}
+[27.750976] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/lib/python3.10/site-packages/cv_msg/msg/_msg_servo.py\n'}
+[27.751367] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/lib/python3.10/site-packages/cv_msg/msg/_msg_center.py\n'}
+[27.751687] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/lib/python3.10/site-packages/cv_msg/msg/_msg_servo_s.c\n'}
+[27.752011] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/lib/python3.10/site-packages/cv_msg/msg/__init__.py\n'}
+[27.752350] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/lib/python3.10/site-packages/cv_msg/_cv_msg_s.ep.rosidl_typesupport_c.c\n'}
+[27.754307] (-) TimerEvent: {}
+[27.854879] (-) TimerEvent: {}
+[27.914066] (cv_msg) StdoutLine: {'line': b"Listing '/home/kmw/ros2_ws/src/install/cv_msg/lib/python3.10/site-packages/cv_msg'...\n"}
+[27.914721] (cv_msg) StdoutLine: {'line': b"Compiling '/home/kmw/ros2_ws/src/install/cv_msg/lib/python3.10/site-packages/cv_msg/__init__.py'...\n"}
+[27.915237] (cv_msg) StdoutLine: {'line': b"Listing '/home/kmw/ros2_ws/src/install/cv_msg/lib/python3.10/site-packages/cv_msg/msg'...\n"}
+[27.915714] (cv_msg) StdoutLine: {'line': b"Compiling '/home/kmw/ros2_ws/src/install/cv_msg/lib/python3.10/site-packages/cv_msg/msg/__init__.py'...\n"}
+[27.916143] (cv_msg) StdoutLine: {'line': b"Compiling '/home/kmw/ros2_ws/src/install/cv_msg/lib/python3.10/site-packages/cv_msg/msg/_msg_center.py'...\n"}
+[27.916620] (cv_msg) StdoutLine: {'line': b"Compiling '/home/kmw/ros2_ws/src/install/cv_msg/lib/python3.10/site-packages/cv_msg/msg/_msg_servo.py'...\n"}
+[27.917048] (cv_msg) StdoutLine: {'line': b"Listing '/home/kmw/ros2_ws/src/install/cv_msg/lib/python3.10/site-packages/cv_msg/srv'...\n"}
+[27.917491] (cv_msg) StdoutLine: {'line': b"Compiling '/home/kmw/ros2_ws/src/install/cv_msg/lib/python3.10/site-packages/cv_msg/srv/__init__.py'...\n"}
+[27.917816] (cv_msg) StdoutLine: {'line': b"Compiling '/home/kmw/ros2_ws/src/install/cv_msg/lib/python3.10/site-packages/cv_msg/srv/_srv_arduino.py'...\n"}
+[27.918167] (cv_msg) StdoutLine: {'line': b"Compiling '/home/kmw/ros2_ws/src/install/cv_msg/lib/python3.10/site-packages/cv_msg/srv/_srv_good.py'...\n"}
+[27.918530] (cv_msg) StdoutLine: {'line': b"Compiling '/home/kmw/ros2_ws/src/install/cv_msg/lib/python3.10/site-packages/cv_msg/srv/_srv_motor.py'...\n"}
+[27.918873] (cv_msg) StdoutLine: {'line': b"Compiling '/home/kmw/ros2_ws/src/install/cv_msg/lib/python3.10/site-packages/cv_msg/srv/_srv_servo.py'...\n"}
+[27.932020] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/lib/python3.10/site-packages/cv_msg/cv_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[27.933529] (cv_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/kmw/ros2_ws/src/install/cv_msg/lib/python3.10/site-packages/cv_msg/cv_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[27.934436] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/lib/python3.10/site-packages/cv_msg/cv_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[27.935864] (cv_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/kmw/ros2_ws/src/install/cv_msg/lib/python3.10/site-packages/cv_msg/cv_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[27.936799] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/lib/python3.10/site-packages/cv_msg/cv_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[27.938300] (cv_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/kmw/ros2_ws/src/install/cv_msg/lib/python3.10/site-packages/cv_msg/cv_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[27.938805] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/lib/libcv_msg__rosidl_generator_py.so\n'}
+[27.940244] (cv_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/kmw/ros2_ws/src/install/cv_msg/lib/libcv_msg__rosidl_generator_py.so" to ""\n'}
+[27.940699] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/msg/MsgServo.idl\n'}
+[27.941328] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/msg/MsgCenter.idl\n'}
+[27.941861] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/srv/SrvGood.idl\n'}
+[27.942375] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/srv/SrvArduino.idl\n'}
+[27.942906] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/srv/SrvMotor.idl\n'}
+[27.943398] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/srv/SrvServo.idl\n'}
+[27.943767] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/msg/MsgServo.msg\n'}
+[27.944233] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/msg/MsgCenter.msg\n'}
+[27.944715] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/srv/SrvGood.srv\n'}
+[27.945179] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/srv/SrvGood_Request.msg\n'}
+[27.945831] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/srv/SrvGood_Response.msg\n'}
+[27.946444] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/srv/SrvArduino.srv\n'}
+[27.946909] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/srv/SrvArduino_Request.msg\n'}
+[27.947362] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/srv/SrvArduino_Response.msg\n'}
+[27.947746] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/srv/SrvMotor.srv\n'}
+[27.948087] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/srv/SrvMotor_Request.msg\n'}
+[27.948513] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/srv/SrvMotor_Response.msg\n'}
+[27.948828] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/srv/SrvServo.srv\n'}
+[27.949194] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/srv/SrvServo_Request.msg\n'}
+[27.949618] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/srv/SrvServo_Response.msg\n'}
+[27.950179] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/ament_index/resource_index/package_run_dependencies/cv_msg\n'}
+[27.950701] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/ament_index/resource_index/parent_prefix_path/cv_msg\n'}
+[27.951131] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/environment/ament_prefix_path.sh\n'}
+[27.951608] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/environment/ament_prefix_path.dsv\n'}
+[27.951920] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/environment/path.sh\n'}
+[27.952341] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/environment/path.dsv\n'}
+[27.952660] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/local_setup.bash\n'}
+[27.952946] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/local_setup.sh\n'}
+[27.953377] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/local_setup.zsh\n'}
+[27.953735] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/local_setup.dsv\n'}
+[27.954071] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/package.dsv\n'}
+[27.954622] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/ament_index/resource_index/packages/cv_msg\n'}
+[27.954871] (-) TimerEvent: {}
+[27.955332] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/cmake/export_cv_msg__rosidl_generator_cExport.cmake\n'}
+[27.955794] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/cmake/export_cv_msg__rosidl_generator_cExport-noconfig.cmake\n'}
+[27.956259] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/cmake/export_cv_msg__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[27.956644] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/cmake/export_cv_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[27.957047] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/cmake/cv_msg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[27.957369] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/cmake/cv_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[27.957656] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/cmake/cv_msg__rosidl_typesupport_cExport.cmake\n'}
+[27.958044] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/cmake/cv_msg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[27.958435] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/cmake/export_cv_msg__rosidl_generator_cppExport.cmake\n'}
+[27.958810] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/cmake/export_cv_msg__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[27.959361] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/cmake/export_cv_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[27.959818] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/cmake/cv_msg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[27.960418] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/cmake/cv_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[27.960852] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/cmake/cv_msg__rosidl_typesupport_cppExport.cmake\n'}
+[27.961382] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/cmake/cv_msg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[27.961823] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/cmake/export_cv_msg__rosidl_generator_pyExport.cmake\n'}
+[27.962274] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/cmake/export_cv_msg__rosidl_generator_pyExport-noconfig.cmake\n'}
+[27.962742] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/cmake/rosidl_cmake-extras.cmake\n'}
+[27.963029] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[27.963478] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[27.963724] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[27.964139] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[27.964487] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[27.964682] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[27.964944] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/cmake/cv_msgConfig.cmake\n'}
+[27.965160] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/cmake/cv_msgConfig-version.cmake\n'}
+[27.965413] (cv_msg) StdoutLine: {'line': b'-- Installing: /home/kmw/ros2_ws/src/install/cv_msg/share/cv_msg/package.xml\n'}
+[27.970105] (cv_msg) CommandEnded: {'returncode': 0}
+[28.055137] (-) TimerEvent: {}
+[28.155816] (-) TimerEvent: {}
+[28.256936] (-) TimerEvent: {}
+[28.357839] (-) TimerEvent: {}
+[28.458453] (-) TimerEvent: {}
+[28.519376] (cv_msg) JobEnded: {'identifier': 'cv_msg', 'rc': 0}
+[28.524490] (-) EventReactorShutdown: {}

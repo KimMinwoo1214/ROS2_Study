@@ -1,0 +1,37 @@
+[8.015s] Invoking command in '/home/kmw/ros2_ws/src/ros_good': CONDA_PROMPT_MODIFIER=(ros2_py310) PYTHONPATH=/home/kmw/ros2_ws/src/build/ros_good/prefix_override:/home/kmw/miniconda3/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/ros2_ws/src/install/ros_good/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/ros_good build --build-base /home/kmw/ros2_ws/src/build/ros_good/build install --record /home/kmw/ros2_ws/src/build/ros_good/install.log --single-version-externally-managed install_data
+[9.479s] running egg_info
+[9.483s] creating ../build/ros_good/ros_good.egg-info
+[9.571s] writing ../build/ros_good/ros_good.egg-info/PKG-INFO
+[9.575s] writing dependency_links to ../build/ros_good/ros_good.egg-info/dependency_links.txt
+[9.577s] writing entry points to ../build/ros_good/ros_good.egg-info/entry_points.txt
+[9.579s] writing requirements to ../build/ros_good/ros_good.egg-info/requires.txt
+[9.585s] writing top-level names to ../build/ros_good/ros_good.egg-info/top_level.txt
+[9.589s] writing manifest file '../build/ros_good/ros_good.egg-info/SOURCES.txt'
+[9.790s] reading manifest file '../build/ros_good/ros_good.egg-info/SOURCES.txt'
+[9.797s] writing manifest file '../build/ros_good/ros_good.egg-info/SOURCES.txt'
+[9.797s] running build
+[9.797s] running build_py
+[9.799s] creating /home/kmw/ros2_ws/src/build/ros_good/build/lib/ros_good
+[9.799s] copying ros_good/cam_cli.py -> /home/kmw/ros2_ws/src/build/ros_good/build/lib/ros_good
+[9.800s] copying ros_good/cam_ser.py -> /home/kmw/ros2_ws/src/build/ros_good/build/lib/ros_good
+[9.803s] copying ros_good/__init__.py -> /home/kmw/ros2_ws/src/build/ros_good/build/lib/ros_good
+[9.803s] running install
+[9.826s] running install_lib
+[9.922s] creating /home/kmw/ros2_ws/src/install/ros_good/lib/python3.10/site-packages/ros_good
+[9.927s] copying /home/kmw/ros2_ws/src/build/ros_good/build/lib/ros_good/cam_cli.py -> /home/kmw/ros2_ws/src/install/ros_good/lib/python3.10/site-packages/ros_good
+[9.927s] copying /home/kmw/ros2_ws/src/build/ros_good/build/lib/ros_good/cam_ser.py -> /home/kmw/ros2_ws/src/install/ros_good/lib/python3.10/site-packages/ros_good
+[9.927s] copying /home/kmw/ros2_ws/src/build/ros_good/build/lib/ros_good/__init__.py -> /home/kmw/ros2_ws/src/install/ros_good/lib/python3.10/site-packages/ros_good
+[9.928s] byte-compiling /home/kmw/ros2_ws/src/install/ros_good/lib/python3.10/site-packages/ros_good/cam_cli.py to cam_cli.cpython-310.pyc
+[9.931s] byte-compiling /home/kmw/ros2_ws/src/install/ros_good/lib/python3.10/site-packages/ros_good/cam_ser.py to cam_ser.cpython-310.pyc
+[9.933s] byte-compiling /home/kmw/ros2_ws/src/install/ros_good/lib/python3.10/site-packages/ros_good/__init__.py to __init__.cpython-310.pyc
+[9.934s] running install_data
+[9.935s] creating /home/kmw/ros2_ws/src/install/ros_good/share/ament_index/resource_index/packages
+[9.938s] copying resource/ros_good -> /home/kmw/ros2_ws/src/install/ros_good/share/ament_index/resource_index/packages
+[9.938s] copying package.xml -> /home/kmw/ros2_ws/src/install/ros_good/share/ros_good
+[9.939s] running install_egg_info
+[10.051s] Copying ../build/ros_good/ros_good.egg-info to /home/kmw/ros2_ws/src/install/ros_good/lib/python3.10/site-packages/ros_good-0.0.0-py3.10.egg-info
+[10.051s] running install_scripts
+[11.275s] Installing cam_cli script to /home/kmw/ros2_ws/src/install/ros_good/lib/ros_good
+[11.278s] Installing cam_ser script to /home/kmw/ros2_ws/src/install/ros_good/lib/ros_good
+[11.283s] writing list of installed files to '/home/kmw/ros2_ws/src/build/ros_good/install.log'
+[12.329s] Invoked command in '/home/kmw/ros2_ws/src/ros_good' returned '0': CONDA_PROMPT_MODIFIER=(ros2_py310) PYTHONPATH=/home/kmw/ros2_ws/src/build/ros_good/prefix_override:/home/kmw/miniconda3/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/ros2_ws/src/install/ros_good/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/ros_good build --build-base /home/kmw/ros2_ws/src/build/ros_good/build install --record /home/kmw/ros2_ws/src/build/ros_good/install.log --single-version-externally-managed install_data

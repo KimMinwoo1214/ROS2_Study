@@ -1,0 +1,37 @@
+[3.546s] Invoking command in '/home/kmw/ros2_ws/src/ros_servo': CONDA_PROMPT_MODIFIER=(ros2_py310) PYTHONPATH=/home/kmw/ros2_ws/src/build/ros_servo/prefix_override:/home/kmw/miniconda3/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/ros2_ws/src/install/ros_servo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/ros_servo build --build-base /home/kmw/ros2_ws/src/build/ros_servo/build install --record /home/kmw/ros2_ws/src/build/ros_servo/install.log --single-version-externally-managed install_data
+[5.485s] running egg_info
+[5.488s] creating ../build/ros_servo/ros_servo.egg-info
+[5.589s] writing ../build/ros_servo/ros_servo.egg-info/PKG-INFO
+[5.593s] writing dependency_links to ../build/ros_servo/ros_servo.egg-info/dependency_links.txt
+[5.596s] writing entry points to ../build/ros_servo/ros_servo.egg-info/entry_points.txt
+[5.598s] writing requirements to ../build/ros_servo/ros_servo.egg-info/requires.txt
+[5.601s] writing top-level names to ../build/ros_servo/ros_servo.egg-info/top_level.txt
+[5.601s] writing manifest file '../build/ros_servo/ros_servo.egg-info/SOURCES.txt'
+[5.837s] reading manifest file '../build/ros_servo/ros_servo.egg-info/SOURCES.txt'
+[5.840s] writing manifest file '../build/ros_servo/ros_servo.egg-info/SOURCES.txt'
+[5.843s] running build
+[5.843s] running build_py
+[5.846s] creating /home/kmw/ros2_ws/src/build/ros_servo/build/lib/ros_servo
+[5.849s] copying ros_servo/servo_sub.py -> /home/kmw/ros2_ws/src/build/ros_servo/build/lib/ros_servo
+[5.854s] copying ros_servo/__init__.py -> /home/kmw/ros2_ws/src/build/ros_servo/build/lib/ros_servo
+[5.859s] copying ros_servo/servo_pub.py -> /home/kmw/ros2_ws/src/build/ros_servo/build/lib/ros_servo
+[5.860s] running install
+[5.905s] running install_lib
+[6.081s] creating /home/kmw/ros2_ws/src/install/ros_servo/lib/python3.10/site-packages/ros_servo
+[6.082s] copying /home/kmw/ros2_ws/src/build/ros_servo/build/lib/ros_servo/servo_sub.py -> /home/kmw/ros2_ws/src/install/ros_servo/lib/python3.10/site-packages/ros_servo
+[6.084s] copying /home/kmw/ros2_ws/src/build/ros_servo/build/lib/ros_servo/__init__.py -> /home/kmw/ros2_ws/src/install/ros_servo/lib/python3.10/site-packages/ros_servo
+[6.085s] copying /home/kmw/ros2_ws/src/build/ros_servo/build/lib/ros_servo/servo_pub.py -> /home/kmw/ros2_ws/src/install/ros_servo/lib/python3.10/site-packages/ros_servo
+[6.090s] byte-compiling /home/kmw/ros2_ws/src/install/ros_servo/lib/python3.10/site-packages/ros_servo/servo_sub.py to servo_sub.cpython-310.pyc
+[6.094s] byte-compiling /home/kmw/ros2_ws/src/install/ros_servo/lib/python3.10/site-packages/ros_servo/__init__.py to __init__.cpython-310.pyc
+[6.096s] byte-compiling /home/kmw/ros2_ws/src/install/ros_servo/lib/python3.10/site-packages/ros_servo/servo_pub.py to servo_pub.cpython-310.pyc
+[6.099s] running install_data
+[6.102s] creating /home/kmw/ros2_ws/src/install/ros_servo/share/ament_index/resource_index/packages
+[6.106s] copying resource/ros_servo -> /home/kmw/ros2_ws/src/install/ros_servo/share/ament_index/resource_index/packages
+[6.108s] copying package.xml -> /home/kmw/ros2_ws/src/install/ros_servo/share/ros_servo
+[6.110s] running install_egg_info
+[6.311s] Copying ../build/ros_servo/ros_servo.egg-info to /home/kmw/ros2_ws/src/install/ros_servo/lib/python3.10/site-packages/ros_servo-0.0.0-py3.10.egg-info
+[6.317s] running install_scripts
+[8.136s] Installing servo_pub script to /home/kmw/ros2_ws/src/install/ros_servo/lib/ros_servo
+[8.139s] Installing servo_sub script to /home/kmw/ros2_ws/src/install/ros_servo/lib/ros_servo
+[8.144s] writing list of installed files to '/home/kmw/ros2_ws/src/build/ros_servo/install.log'
+[8.352s] Invoked command in '/home/kmw/ros2_ws/src/ros_servo' returned '0': CONDA_PROMPT_MODIFIER=(ros2_py310) PYTHONPATH=/home/kmw/ros2_ws/src/build/ros_servo/prefix_override:/home/kmw/miniconda3/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/ros2_ws/src/install/ros_servo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/ros_servo build --build-base /home/kmw/ros2_ws/src/build/ros_servo/build install --record /home/kmw/ros2_ws/src/build/ros_servo/install.log --single-version-externally-managed install_data

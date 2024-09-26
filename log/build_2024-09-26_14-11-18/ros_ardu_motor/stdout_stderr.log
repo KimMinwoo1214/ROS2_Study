@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/ros_ardu_motor/ros_ardu_motor.egg-info
+writing ../build/ros_ardu_motor/ros_ardu_motor.egg-info/PKG-INFO
+writing dependency_links to ../build/ros_ardu_motor/ros_ardu_motor.egg-info/dependency_links.txt
+writing entry points to ../build/ros_ardu_motor/ros_ardu_motor.egg-info/entry_points.txt
+writing requirements to ../build/ros_ardu_motor/ros_ardu_motor.egg-info/requires.txt
+writing top-level names to ../build/ros_ardu_motor/ros_ardu_motor.egg-info/top_level.txt
+writing manifest file '../build/ros_ardu_motor/ros_ardu_motor.egg-info/SOURCES.txt'
+reading manifest file '../build/ros_ardu_motor/ros_ardu_motor.egg-info/SOURCES.txt'
+writing manifest file '../build/ros_ardu_motor/ros_ardu_motor.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/kmw/ros2_ws/src/build/ros_ardu_motor/build/lib/ros_ardu_motor
+copying ros_ardu_motor/motor_cli.py -> /home/kmw/ros2_ws/src/build/ros_ardu_motor/build/lib/ros_ardu_motor
+copying ros_ardu_motor/__init__.py -> /home/kmw/ros2_ws/src/build/ros_ardu_motor/build/lib/ros_ardu_motor
+copying ros_ardu_motor/motor_ser.py -> /home/kmw/ros2_ws/src/build/ros_ardu_motor/build/lib/ros_ardu_motor
+running install
+running install_lib
+creating /home/kmw/ros2_ws/src/install/ros_ardu_motor/lib/python3.10/site-packages/ros_ardu_motor
+copying /home/kmw/ros2_ws/src/build/ros_ardu_motor/build/lib/ros_ardu_motor/motor_cli.py -> /home/kmw/ros2_ws/src/install/ros_ardu_motor/lib/python3.10/site-packages/ros_ardu_motor
+copying /home/kmw/ros2_ws/src/build/ros_ardu_motor/build/lib/ros_ardu_motor/__init__.py -> /home/kmw/ros2_ws/src/install/ros_ardu_motor/lib/python3.10/site-packages/ros_ardu_motor
+copying /home/kmw/ros2_ws/src/build/ros_ardu_motor/build/lib/ros_ardu_motor/motor_ser.py -> /home/kmw/ros2_ws/src/install/ros_ardu_motor/lib/python3.10/site-packages/ros_ardu_motor
+byte-compiling /home/kmw/ros2_ws/src/install/ros_ardu_motor/lib/python3.10/site-packages/ros_ardu_motor/motor_cli.py to motor_cli.cpython-310.pyc
+byte-compiling /home/kmw/ros2_ws/src/install/ros_ardu_motor/lib/python3.10/site-packages/ros_ardu_motor/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/kmw/ros2_ws/src/install/ros_ardu_motor/lib/python3.10/site-packages/ros_ardu_motor/motor_ser.py to motor_ser.cpython-310.pyc
+running install_data
+creating /home/kmw/ros2_ws/src/install/ros_ardu_motor/share/ament_index/resource_index/packages
+copying resource/ros_ardu_motor -> /home/kmw/ros2_ws/src/install/ros_ardu_motor/share/ament_index/resource_index/packages
+copying package.xml -> /home/kmw/ros2_ws/src/install/ros_ardu_motor/share/ros_ardu_motor
+running install_egg_info
+Copying ../build/ros_ardu_motor/ros_ardu_motor.egg-info to /home/kmw/ros2_ws/src/install/ros_ardu_motor/lib/python3.10/site-packages/ros_ardu_motor-0.0.0-py3.10.egg-info
+running install_scripts
+Installing motor_cli script to /home/kmw/ros2_ws/src/install/ros_ardu_motor/lib/ros_ardu_motor
+Installing motor_ser script to /home/kmw/ros2_ws/src/install/ros_ardu_motor/lib/ros_ardu_motor
+writing list of installed files to '/home/kmw/ros2_ws/src/build/ros_ardu_motor/install.log'
