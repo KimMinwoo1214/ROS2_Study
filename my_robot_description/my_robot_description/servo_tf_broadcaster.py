@@ -14,7 +14,7 @@ class LidarRotator(Node):
         self.timer = self.create_timer(0.015, self.broadcast_transform)
 
         # Open serial port to Arduino for rotation angles
-        self.serial_port = serial.Serial('/dev/ttyUSB0', baudrate=9600, timeout=1)
+        self.serial_port = serial.Serial('/dev/ttyUSB1', baudrate=9600, timeout=1)
         self.angle = -60.0  # Default angle in degrees
 
     def get_angle_from_arduino(self):

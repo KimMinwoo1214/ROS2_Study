@@ -26,6 +26,9 @@ setup(
             'lidar_tf_broadcaster = lidar_3d_package.lidar_tf_broadcaster:main',
             'lidar_to_pointcloud = lidar_3d_package.lidar_to_pointcloud:main',
             'servo_tf_broadcaster = lidar_3d_package.servo_tf_broadcaster:main',
+            'lidar_rotator_node = lidar_3d_package.lidar_rotator_node:main',
+            'lidar_to_3d_node = lidar_3d_package.lidar_to_3d_node:main',
+            'lidar_point_cloud = lidar_3d_package.laser_scan_to_cloud:main',
         ],
     },
 )
